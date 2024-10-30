@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RIZMAC | Click n' Cart</title>
+    <link rel="shortcut icon" href="assets/image/favicon_icon.webp" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/silck/slick.css" />
+    <link rel="stylesheet" href="assets/silck/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/shop.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
+</head>
+
+<body>
+    <!-- header Start  -->
+    <div class="main-wrapper">
+        <div class="topbar border-bottom border-muted p-2">
+            <div class="container">
+                <div class="d-flex">
+                    <a href="tel:005266242" class="nav-link text-secondary">00 565 4515</a>
+                    <a href="mail:abc.123@gmail.com" class="nav-link text-secondary ms-3">abc.123@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <header class="header_main">
+            <nav class="navbar navbar-expand-sm navbar-light py-4">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/image/logo.png" width="120" alt="">
+                    </a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#" aria-current="page">Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex my-2 my-lg-0">
+                            <input class="form-control me-sm-2 shadow-none rounded-5" type="text"
+                                placeholder="Search" />
+                            <button class="btn btn-success my-0 my-sm-0" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div class="overlay"></div>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <div class="d-flex align-items-end justify-content-between">
+                        <a href="#" class="toggle_filter lg_toggle_filter d-lg-block d-md-block d-none">
+                            <span class="fas fa-sliders"></span>
+                            <span class="">Filter</span>
+                            <span class="fas fa-chevron-left"></span>
+                        </a>
+                        <a href="#" class="toggle_filter sm_toggle_filter d-lg-none d-md-none d-block">
+                            <span class="fas fa-sliders"></span>
+                            <span class="">Filter</span>
+                            <span class="fas fa-chevron-left"></span>
+                        </a>
+                        <div class="d-lg-block d-none">
+                            <select name="" id="" class="form-select border-0 shadow-none">
+                                <option value="">Best selling</option>
+                                <option value="">Alphabetically, A-Z</option>
+                                <option value="">Alphabetically, Z-A</option>
+                                <option value="">Price, low to high</option>
+                                <option value="">Price, high to low</option>
+                                <option value="">Date, old to new</option>
+                                <option value="">Date, new to old</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="filter_box">
+                        <div class="filter">
+                            <div class="d-lg-none d-md-none d-block filter_dismiss text-end pb-3">
+                                <button class="btn text-danger"><i class="fa fa-times"></i></button>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center stock_switch">
+                                <span class="fw-bold text-nowrap">Out of stock</span>
+                                <div class="switch">
+                                    <span class="active">Show</span>
+                                    <span>Hide</span>
+                                </div>
+                            </div>
+                            <div class="mt-5 mb-2">
+                                <div class="d-flex justify-content-between flex-wrap align-items-center dp_down">
+                                    <span class="fw-bold">Price</span>
+                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-12 mt-2 dp_div">
+                                    <div class="price-input mt-1">
+                                        <div class="field">
+                                          <input type="number" class="input-min" value="2500">
+                                        </div>
+                                        <div class="field">
+                                          <input type="number" class="input-max" value="7500">
+                                        </div>
+                                      </div>
+                                      <div class="slider">
+                                        <div class="progress"></div>
+                                      </div>
+                                      <div class="range-input">
+                                        <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+                                        <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+                                      </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-5 mb-2">
+                                <div class="d-flex justify-content-between flex-wrap align-items-center dp_down">
+                                    <span class="fw-bold">Color</span>
+                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-12 mt-2 dp_div" style="display: none;">
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> Red
+                                    </label>
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> Red
+                                    </label>
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> Red
+                                    </label>
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> Red
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mt-5 mb-2">
+                                <div class="d-flex justify-content-between flex-wrap align-items-center dp_down">
+                                    <span class="fw-bold">Fabric</span>
+                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-12 mt-2 dp_div" style="display: none;">
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> Blended
+                                    </label>
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> Blended
+                                    </label>
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> Blended
+                                    </label>
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> Blended
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="mt-5 mb-2">
+                                <div class="d-flex justify-content-between flex-wrap align-items-center dp_down">
+                                    <span class="fw-bold">Size</span>
+                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-12 mt-2 dp_div" style="display: none;">
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> XL
+                                    </label>
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> L
+                                    </label>
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> M
+                                    </label>
+                                    <label class="d-flex gap-2 mb-1">
+                                        <input type="checkbox" class="form-check"> S
+                                    </label>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="product_section_box">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                    <div class="product_item">
+                                        <div class="image">
+                                            <a href="product.html">
+                                                <img src="assets/image/collection/1.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hover_menu">
+                                            <a href="#">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                        <div class="offer">
+                                            00%
+                                        </div>
+                                        <div class="content mt-3">
+                                            <a href="product.html"><h3 class="product_name primary fw-bold">Product Name </h3></a>
+                                            <div class="price mt-1">
+                                                <span class="text-secondary font-20">$100.00</span>
+                                                <del class="text-danger ms-3">$100.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                    <div class="product_item">
+                                        <div class="image">
+                                            <a href="product.html">
+                                                <img src="assets/image/collection/1.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hover_menu">
+                                            <a href="#">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                        <div class="offer">
+                                            00%
+                                        </div>
+                                        <div class="content mt-3">
+                                            <a href="product.html"><h3 class="product_name primary fw-bold">Product Name </h3></a>
+                                            <div class="price mt-1">
+                                                <span class="text-secondary font-20">$100.00</span>
+                                                <del class="text-danger ms-3">$100.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                    <div class="product_item">
+                                        <div class="image">
+                                            <a href="product.html">
+                                                <img src="assets/image/collection/1.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hover_menu">
+                                            <a href="#">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                        <div class="offer">
+                                            00%
+                                        </div>
+                                        <div class="content mt-3">
+                                            <a href="product.html"><h3 class="product_name primary fw-bold">Product Name </h3></a>
+                                            <div class="price mt-1">
+                                                <span class="text-secondary font-20">$100.00</span>
+                                                <del class="text-danger ms-3">$100.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                    <div class="product_item">
+                                        <div class="image">
+                                            <a href="product.html">
+                                                <img src="assets/image/collection/1.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hover_menu">
+                                            <a href="#">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                        <div class="offer">
+                                            00%
+                                        </div>
+                                        <div class="content mt-3">
+                                            <a href="product.html"><h3 class="product_name primary fw-bold">Product Name </h3></a>
+                                            <div class="price mt-1">
+                                                <span class="text-secondary font-20">$100.00</span>
+                                                <del class="text-danger ms-3">$100.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                    <div class="product_item">
+                                        <div class="image">
+                                            <a href="product.html">
+                                                <img src="assets/image/collection/1.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hover_menu">
+                                            <a href="#">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                        <div class="offer">
+                                            00%
+                                        </div>
+                                        <div class="content mt-3">
+                                            <a href="product.html"><h3 class="product_name primary fw-bold">Product Name </h3></a>
+                                            <div class="price mt-1">
+                                                <span class="text-secondary font-20">$100.00</span>
+                                                <del class="text-danger ms-3">$100.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                    <div class="product_item">
+                                        <div class="image">
+                                            <a href="product.html">
+                                                <img src="assets/image/collection/1.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hover_menu">
+                                            <a href="#">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                        <div class="offer">
+                                            00%
+                                        </div>
+                                        <div class="content mt-3">
+                                            <a href="product.html"><h3 class="product_name primary fw-bold">Product Name </h3></a>
+                                            <div class="price mt-1">
+                                                <span class="text-secondary font-20">$100.00</span>
+                                                <del class="text-danger ms-3">$100.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                    <div class="product_item">
+                                        <div class="image">
+                                            <a href="product.html">
+                                                <img src="assets/image/collection/1.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hover_menu">
+                                            <a href="#">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                        <div class="offer">
+                                            00%
+                                        </div>
+                                        <div class="content mt-3">
+                                            <a href="product.html"><h3 class="product_name primary fw-bold">Product Name </h3></a>
+                                            <div class="price mt-1">
+                                                <span class="text-secondary font-20">$100.00</span>
+                                                <del class="text-danger ms-3">$100.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                    <div class="product_item">
+                                        <div class="image">
+                                            <a href="product.html">
+                                                <img src="assets/image/collection/1.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hover_menu">
+                                            <a href="#">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                        <div class="offer">
+                                            00%
+                                        </div>
+                                        <div class="content mt-3">
+                                            <a href="product.html"><h3 class="product_name primary fw-bold">Product Name </h3></a>
+                                            <div class="price mt-1">
+                                                <span class="text-secondary font-20">$100.00</span>
+                                                <del class="text-danger ms-3">$100.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6 mb-3">
+                                    <div class="product_item">
+                                        <div class="image">
+                                            <a href="product.html">
+                                                <img src="assets/image/collection/1.webp" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="hover_menu">
+                                            <a href="#">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="#">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </div>
+                                        <div class="offer">
+                                            00%
+                                        </div>
+                                        <div class="content mt-3">
+                                            <a href="product.html"><h3 class="product_name primary fw-bold">Product Name </h3></a>
+                                            <div class="price mt-1">
+                                                <span class="text-secondary font-20">$100.00</span>
+                                                <del class="text-danger ms-3">$100.00</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-muted">
+            <div class="container py-5 px-lg-5 px-3">
+                <div class="row">
+                    <div class="col-lg-2 col-12 mb-3">
+                        <h5 class="mb-4 primary">Product</h5>
+                        <ul class="list-unstyled text_dark_footer_menu">
+                            <li><a href="">New</a></li>
+                            <li><a href="">Upcomming</a></li>
+                            <li><a href="">Collection</a></li>
+                            <li><a href="">On Sale</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-12 mb-3">
+                        <h5 class="mb-4 primary">Others</h5>
+                        <ul class="list-unstyled text_dark_footer_menu">
+                            <li><a href="">Program Post</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Live Demo</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-12 mb-3">
+                        <h5 class="mb-4 primary">Contact Us</h5>
+                        <ul class="list-unstyled text_dark_footer_menu">
+                            <li><a href="">Live Chat</a></li>
+                            <li><a href="">Mail Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-12 mb-3">
+                        <h2 class="mb-4 primary fw-bold">Subscribe your Email</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, quod dolore deserunt a dignissimos laboriosam aliquam libero, deleniti tenetur placeat</p>
+                        <form action="" class="col-lg-6 mt-3">
+                            <div class="input-group">
+                                <input type="text" class="form-control shadow-none rounded-0 p-3" placeholder="Enter Email">
+                                <button class="btn btn-primary primary-bg rounded-0 p-3" type="submit">Sign up</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal fade" id="country_modal" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">Add rows here</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search_modal" style="display: none;">
+        <div class="container">
+            <div class="search_modal_dismiss position-absolute top-0 end-0 p-2">
+                <button class="btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+            </div>
+            <div class="col-lg-6 col-12 m-auto">
+                <form action="">
+                    <div class="input-group position-relative">
+                        <input type="text" class="form-control p-2 rounded-0 shadow-none" placeholder="Search....">
+                        <button class="btn position-absolute end-0 p-2 rounded-0"><i class="fa fa-search"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/silck/slick.min.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.counterup.js"></script>
+</body>
+
+</html>

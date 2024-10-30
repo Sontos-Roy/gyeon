@@ -1,0 +1,48 @@
+@font-face {
+    font-family: alata;
+    src: url(../fonts/Alata-Regular.ttf);
+}
+@font-face {
+    font-family: opensans300;
+    src: url(../fonts/opensans-300.woff2);
+}
+@font-face {
+    font-family: opensans400;
+    src: url(../fonts/opensans-400.woff2);
+}
+@font-face {
+    font-family: opensans600;
+    src: url(../fonts/opensans-600.woff2);
+}
+@font-face {
+    font-family: opensans700;
+    src: url(../fonts/opensans-700.woff2);
+}
+@font-face {
+    font-family: luma;
+    src: url(../fonts/Luma-Icons.woff2);
+}
+@font-face {
+    font-family: futura;
+    src: url(../fonts/futura.woff2);
+}
+@font-face {
+    font-family: GT_America_Compressed_Bold;
+    src: url(../fonts/gt/GT_America_Compressed_Bold.woff2);
+}
+@font-face {
+    font-family: GT_America_Compressed_Light;
+    src: url(../fonts/gt/GT_America_Compressed_Light.woff2);
+}
+@font-face {
+    font-family: GT_America_Compressed_Medium;
+    src: url(../fonts/gt/GT_America_Compressed_Medium.woff2);
+}
+@font-face {
+    font-family: GT_America_Compressed_Regular;
+    src: url(../fonts/gt/GT_America_Compressed_Regular.woff2);
+}
+@font-face {
+    font-family: GT_America_Compressed_Thin;
+    src: url(../fonts/gt/GT_America_Compressed_Thin.woff2);
+}

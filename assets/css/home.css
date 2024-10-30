@@ -1,0 +1,877 @@
+#carouselId .carousel-item .carousel-caption{
+    text-align: center;
+    bottom: 10%;
+}
+#carouselId .carousel-item{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.product_section .slick-prev, .product_section .slick-next{
+    top: -40px;
+}
+.carousel-indicators [data-bs-target] {
+    height: 18px;
+    width: 18px;
+    background: transparent;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    transition: 1s;
+    position: relative;
+}
+.carousel-indicators [data-bs-target].active{
+}
+.carousel-indicators [data-bs-target]::before{
+    content: "";
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 1s;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+}
+.carousel-indicators [data-bs-target].active::before{
+    transform: scale(1);
+    transition: 1s;
+    background: white;
+}
+.slider_section{
+    margin-top: -165px;
+}
+.product_banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    padding: 50px 30px;
+    background: #DFEEE9;
+    margin-top: 10px;
+}
+.nav_tabs .nav-item .nav-link{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.nav_tabs .nav-item .nav-link.active{
+    color: orange;
+}
+.section-home-gyeon-way {
+    padding: 7.33333rem 0 10rem;
+    background: #e7e7e7;
+}
+.section-home-gyeon-way .position-relative {
+    z-index: 1;
+    text-transform: uppercase;
+}
+.section-home-gyeon-way .section-small-header {
+    margin-bottom: 2.66667rem;
+    padding-top: 0;
+    z-index: 1;
+}
+.section-home-gyeon-way .image-bg {
+    top: 1.33333rem;
+    left: calc(50% - 18.5rem);
+    width: 34.66667rem;
+    height: 33.26667rem;
+    background-image: url(../image/svg/way.svg);
+}
+
+.image-bg {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.section-home-gyeon-way .section-header {
+    margin-bottom: 3rem;
+    font-size: 4.33333rem;
+    font-family: var(--gt_bold);
+    color: #323857;
+}
+
+.section-home-gyeon-way .section-header span {
+    display: inline-block;
+    margin-bottom: .66667rem;
+    vertical-align: middle;
+}
+
+.products-container {
+    background: #e7e7e7;
+}
+.products-container .product-section {
+    height: calc(100vh - 70px);
+}
+.products-container .vertical-text {
+    top: 40%;
+}
+
+.display-1, .display-2, .display-3, .display-4 {
+    color: #322c47;
+}
+.products-container .vertical-text .display-2 {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    font-weight: 700;
+}
+
+.section-name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 2.13333rem;
+    width: 5.46667rem;
+    height: 100%;
+    color: inherit;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.section-name, .section-name .text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.products-container .section-home-coatings .section-name {
+    top: 20%;
+}
+
+.section-name .text {
+    font-size: 1.33333rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: pre;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.section-name .text b {
+    font-weight: 600;
+}
+.products-container .section-home-coatings .diamond1 {
+    top: -18%;
+    left: -30px;
+    width: 268.8px;
+    height: 341.333px;
+    background-image: url(../image/svg/daimond1.svg);
+}
+.products-container .section-home-coatings .diamond2 {
+    right: -5.5%;
+    bottom: 11.43%;
+    width: 330.667px;
+    height: 307.2px;
+    background-image: url(../image/svg/daimond1.svg);
+}
+.products-container .text-box {
+    width: 20rem;
+    font-weight: 300;
+}
+.products-container .section-home-coatings .container .text-box {
+    bottom: 15%;
+    left: 20%;
+}
+.products-container .text-box-header, .products-container .text-box p {
+    margin-bottom: 20px;
+    color: #322c47;
+}
+
+.products-container .section-home-coatings .container .q2 {
+    top: 26%;
+    left: 25.5%;
+    width: 405.333px;
+    height: auto;
+    font-family: var(--gt_thin);
+}
+.products-container .section-home-coatings .container .q2 text {
+    font-family: var(--futura);
+}
+.products-container .section-home-coatings .container .blue-ball {
+    top: 33.5%;
+    left: 25%;
+    width: 279.467px;
+    height: 268.8px;
+    background-image: url(../image/pattern/blue_ball.png);
+    z-index: 3;
+}
+.products-container .section-home-coatings .container .blue-ball-small {
+    top: 39%;
+    left: 44.5%;
+    width: 49.067px;
+    height: 46.933px;
+    background-image: url(../image/pattern/blue_ball_small.png);
+    z-index: 3;
+}
+.products-container .section-home-coatings .container .bottle1 {
+    top: 25%;
+    right: 34.5%;
+    width: 120.533px;
+}
+.products-container .section-home-coatings .container .bottle2 {
+    top: -11%;
+    right: 20.5%;
+    width: 386.133px;
+    z-index: 2;
+}
+.products-container .section-home-maintenance .container .text-box {
+    right: 18%;
+    bottom: 25%;
+}
+.products-container .vertical-text {
+    top: 40%;
+}
+.products-container .section-home-maintenance .container .q2m {
+    top: 15.5%;
+    right: 5.5%;
+    width: 31.06667rem;
+    height: auto;
+}
+.products-container .section-home-maintenance .container .blue-ball-medium {
+    top: 58%;
+    left: 40.4%;
+    width: 104.533px;
+    height: 87.467px;
+    background-image: url(../image/pattern/blue_ball_medium.png);
+    z-index: 3;
+}
+.products-container .section-home-maintenance .container .blue-bubble {
+    top: 51%;
+    left: 35%;
+    width: 238.933px;
+    height: 240px;
+    background-image: url(../image/pattern/blue_bubble.png);
+    z-index: 4;
+}
+.products-container .section-home-maintenance .container .violet-ball {
+    top: 1%;
+    left: 38%;
+    width: 6rem;
+    height: 4.53333rem;
+    background-image: url(../image/pattern/violet_ball.png);
+    z-index: 5;
+}
+.products-container .section-home-maintenance .container .bottle3 {
+    top: 1%;
+    left: 25.5%;
+    width: 20.93333rem;
+    z-index: 2;
+}
+.products-container .section-home-maintenance .container .bottle4 {
+    top: 31%;
+    left: 18%;
+    width: 8.73333rem;
+    z-index: 1;
+}
+.products-container .section-home-maintenance .container .diamond3 {
+    bottom: 8%;
+    left: 11%;
+    width: 17.53333rem;
+    height: 19.2rem;
+    background-image: url(../image/svg/daimond3.svg);
+}
+.products-container .section-home-accessories .container .text-box {
+    top: 22%;
+    left: 20%;
+}
+.products-container .section-home-accessories .container .speaker {
+    top: 4%;
+    right: 9%;
+    width: 30.46667rem;
+}
+.products-container .section-home-accessories .container .acc-ball {
+    top: 40%;
+    right: 31%;
+    width: 5rem;
+    height: 5rem;
+    background-image: url(../image/pattern/acc_ball.png);
+    z-index: 1;
+}
+.products-container .section-home-accessories .container .acc-bubble {
+    top: 37.5%;
+    right: 29%;
+    width: 8.93333rem;
+    height: 8.93333rem;
+    background-image: url(../image/pattern/acc_bubble.png);
+    opacity: .2;
+    z-index: 2;
+}
+.products-container .section-home-accessories .container .acc-ball2 {
+    bottom: 11%;
+    left: 32.5%;
+    width: 8.6rem;
+    height: 8.6rem;
+    background-image: url(../image/pattern/acc_ball2.png);
+    z-index: 1;
+}
+.products-container .section-home-accessories .container .acc-ball3 {
+    bottom: 11%;
+    left: 38%;
+    width: 3rem;
+    height: 3rem;
+    background-image: url(../image/pattern/acc_ball3.png);
+    z-index: 2;
+}
+.products-container .section-home-accessories .container .acc-bubble2 {
+    bottom: 2%;
+    left: 32%;
+    width: 17.4rem;
+    height: 17.33333rem;
+    background-image: url(../image/pattern/acc_bubble2.png);
+    opacity: .1;
+    z-index: 3;
+}
+.products-container .section-home-ppf {
+    background: #f7f2e8;
+    height: 110vh;
+}
+.products-container .section-home-ppf .ppf-slant {
+    top: -1px;
+    height: 12rem;
+    background: #e7e7e7;
+    background: -webkit-linear-gradient(275deg, #e7e7e7, #e7e7e7 50%, #f7f2e8 51%, #f7f2e8);
+    background: linear-gradient(175deg, #e7e7e7, #e7e7e7 50%, #f7f2e8 51%, #f7f2e8);
+}
+.products-container .section-home-ppf .vertical-text {
+    top: 35%;
+}
+.products-container .section-home-ppf .section-name .text {
+    font-size: 1.46667rem;
+}
+.products-container .section-home-ppf .diamond4 {
+    top: 14%;
+    right: -8%;
+    width: 17.66667rem;
+    height: 23rem;
+    background-image: url(../image/svg/daimond4.svg);
+}
+.products-container .text-box {
+    width: 20rem;
+    font-weight: 300;
+}
+.products-container .section-home-ppf .container .text-box {
+    top: 41%;
+    right: 14%;
+}
+.products-container .section-home-ppf .container .q2f {
+    top: 23%;
+    right: 10%;
+    width: 30rem;
+    height: auto;
+}
+.products-container .section-home-ppf .container .ppf1 {
+    top: 49%;
+    left: 37.5%;
+    width: 17.66667rem;
+    z-index: 2;
+}
+.products-container .section-home-ppf .container .ppf2 {
+    top: 4%;
+    left: 27.5%;
+    width: 8.66667rem;
+    z-index: 1;
+}
+.products-container .section-home-ppf .ppf-slant2 {
+    bottom: -1px;
+    height: 12rem;
+    background: #d7ecf6;
+    background: -webkit-linear-gradient(85deg, #d7ecf6, #d7ecf6 50%, rgba(255, 0, 0, 0) 51%, rgba(255, 0, 0, 0));
+    background: linear-gradient(5deg, #d7ecf6, #d7ecf6 50%, rgba(255, 0, 0, 0) 51%, rgba(255, 0, 0, 0));
+    z-index: 3;
+}
+.products-container .section-home-yachts-boats {
+    background: #d7ecf6;
+    z-index: 3;
+}
+.products-container .section-home-yachts-boats .container .section-small-header {
+    padding-top: 3.33333rem;
+}
+.products-container .section-home-yachts-boats .container .text-box {
+    bottom: 26.5%;
+    left: 16.8%;
+}
+.products-container .section-home-yachts-boats .container .q2r {
+    top: 20%;
+    left: 20%;
+    width: 28.4rem;
+}
+.products-container .section-home-yachts-boats .container .crystal {
+    top: 24.5%;
+    left: 46.5%;
+    width: 28.33333rem;
+    height: 14.8rem;
+    background-image: url(../image/svg/crystal.svg);
+}
+.products-container .section-home-yachts-boats .container .bottle5 {
+    top: 39%;
+    right: 29.5%;
+    width: 27.6rem;
+    z-index: 2;
+}
+.products-container .section-home-yachts-boats .container .bottle6 {
+    top: 36%;
+    right: 40.5%;
+    width: 9.06667rem;
+    z-index: 1;
+}
+.products-container .section-home-yachts-boats .container .little-crystal {
+    top: 80.7%;
+    right: 41.1%;
+    width: 1.53333rem;
+    height: 1.53333rem;
+    background-image: url(../image/pattern/little_crystal.png);
+    z-index: 5;
+}
+.products-container .section-home-yachts-boats .container .little-ball {
+    top: -16%;
+    right: 48.8%;
+    width: 3.33333rem;
+    height: 3.33333rem;
+    background-image: url(../image/pattern/little_ball.png);
+    z-index: 4;
+}
+.section-home-global-network {
+    height: calc(100vh - 70px);
+    background: #fff;
+}
+.section-home-global-network .section-small-header {
+    padding-top: 4.66667rem;
+    z-index: 2;
+}
+.section-home-global-network .text-box {
+    bottom: 20%;
+    left: 10%;
+    z-index: 2;
+    width: 75vw;
+}
+.section-home-global-network .text-box .text-box-header {
+    margin-bottom: 2.66667rem;
+    font-weight: 200;
+}
+.section-home-global-network .text-box p {
+    margin-bottom: 2.33333rem;
+    color: #595959;
+    font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: .93333rem;
+    font-weight: 300;
+}
+.section-home-global-network .map {
+    top: -3%;
+    right: 4.5%;
+    width: 81.93333rem;
+    height: 57.93333rem;
+    background-image: url(../image/pattern/map.png);
+}
+.section-home-global-network .diamond5 {
+    top: 16.5%;
+    left: 44.5%;
+    width: 25.66667rem;
+    height: 23.13333rem;
+    background-image: url(../image/svg/daimond5.svg);
+    z-index: 1;
+}
+.section-home-global-network .crystal2 {
+    right: 14%;
+    bottom: 3.5%;
+    width: 28.33333rem;
+    height: 14.66667rem;
+    background-image: url(../image/svg/daimond6.svg);
+    z-index: 1;
+}
+.section-home-global-network .circle-photo {
+    right: 31.5%;
+    bottom: 17.5%;
+    width: 21.4rem;
+    z-index: 2;
+}
+@media (max-width: 1499.98px) {
+    .products-container .section-home-coatings .container .blue-ball {
+        width: 180px;
+        height: 175px;
+    }
+    .products-container .section-home-maintenance .container .q2m {
+        right: 14%;
+    }
+    .products-container .section-home-maintenance .container .blue-ball-medium {
+        left: 39.4%;
+    }
+    .products-container .section-home-maintenance .container .blue-bubble {
+        left: 34%;
+    }
+    .products-container .section-home-ppf .container .q2f {
+        right: 15%;
+    }
+    .products-container .section-home-yachts-boats .container .q2r {
+        top: 17%;
+        left: 23%;
+        top: 5%;
+        left: 18%;
+    }
+}
+@media (max-width: 1199.98px) {
+    .products-container .section-home-maintenance .container .q2m {
+        width: 330px;
+    }
+    .products-container .section-home-maintenance .container .blue-ball-medium {
+        left: 38%;
+    }
+    .products-container .section-home-maintenance .container .blue-bubble {
+        left: 32%;
+    }
+    .products-container .section-home-maintenance .container .violet-ball {
+        left: 36%;
+    }
+    .products-container .section-home-maintenance .container .bottle3 {
+        left: 22%;
+    }
+    .products-container .section-home-maintenance .container .bottle4 {
+        left: 13%;
+    }
+    .products-container .section-home-maintenance .container .diamond3 {
+        left: 7%;
+    }
+    .products-container .section-home-accessories .container .speaker {
+        right: 2%;
+    }
+    .products-container .section-home-accessories .container .acc-ball {
+        right: 32%;
+    }
+    .products-container .section-home-accessories .container .acc-ball2 {
+        left: 33.5%;
+    }
+    .products-container .section-home-accessories .container .acc-ball3 {
+        left: 40%;
+    }
+    .products-container .text-box {
+        width: 20vw;
+    }
+    .products-container .section-home-ppf .container .q2f {
+        width: 280px;
+    }
+    .products-container .section-home-ppf .container .ppf1 {
+        left: 33%;
+    }
+    .products-container .section-home-ppf .container .ppf2 {
+        left: 21%;
+    }
+    .products-container .section-home-yachts-boats .container .q2r {
+        left: 20%;
+    }
+    .products-container .section-home-yachts-boats .container .bottle5 {
+        right: 30%;
+    }
+    .products-container .section-home-yachts-boats .container .little-crystal {
+        right: 43%;
+    }
+    .products-container .section-home-yachts-boats .container .little-ball {
+        right: 44%;
+    }
+    .section-home-global-network .circle-photo {
+        right: 24%;
+        bottom: 19.5%;
+    }
+}
+@media (max-width: 991.98px) {
+    .products-container .product-section {
+        min-height: 75vw;
+    }
+    .carousel-indicators{
+        bottom: 0px;
+    }
+    .products-container .product-section {
+        min-height: 75vw;
+    }
+    .section-name {
+        display: none;
+    }
+    .products-container .section-home-maintenance .container .q2m {
+        top: 23.5%;
+        right: 9%;
+        width: 300px;
+    }
+    .products-container .section-home-maintenance .container .blue-ball-medium {
+        left: 35%;
+    }
+    .products-container .section-home-maintenance .container .blue-bubble {
+        left: 26%;
+    }
+    .products-container .section-home-maintenance .container .violet-ball {
+        left: 28%;
+    }
+    .products-container .section-home-maintenance .container .bottle3 {
+        top: -11%;
+        left: 11%;
+    }
+    .products-container .section-home-maintenance .container .bottle4 {
+        left: 5%;
+    }
+    .products-container .section-home-maintenance .container .diamond3 {
+        left: 3%;
+    }
+    .products-container .section-home-accessories .container .speaker {
+        right: -7%;
+    }
+    .products-container .section-home-accessories .container .acc-ball {
+        right: 29%;
+    }
+    .products-container .section-home-accessories .container .acc-bubble {
+        right: 26%;
+    }
+    .products-container .section-home-accessories .container .acc-ball2 {
+        bottom: 11%;
+        left: 32%;
+        width: 90px;
+        height: 90px;
+    }
+    .products-container .section-home-accessories .container .acc-ball3 {
+        bottom: 15%;
+        width: 30px;
+        height: 30px;
+    }
+    .products-container .section-home-accessories .container .acc-bubble2 {
+        bottom: 2%;
+        left: 28%;
+        width: 170px;
+        height: 169px;
+    }
+    .products-container .section-home-ppf .diamond4 {
+        right: -13%;
+    }
+    .products-container .text-box {
+        width: 25vw;
+    }
+    .products-container .section-home-ppf .container .q2f {
+        top: 22%;
+        right: 13%;
+        width: 280px;
+    }
+    .products-container .section-home-ppf .container .ppf1 {
+        left: 28.5%;
+    }
+    .products-container .section-home-ppf .container .ppf2 {
+        left: 12.5%;
+    }
+    .products-container .section-home-yachts-boats .container .bottle5 {
+        right: 15%;
+    }
+    .products-container .section-home-yachts-boats .container .bottle6 {
+        right: 31%;
+    }
+    .products-container .section-home-yachts-boats .container .little-crystal {
+        right: 42%;
+    }
+    .products-container .section-home-yachts-boats .container .little-ball {
+        right: 43%;
+    }
+    .section-home-global-network .map {
+        top: 0;
+        right: 0;
+    }
+    .section-home-global-network .circle-photo {
+        right: 16%;
+        bottom: 8%;
+        width: 240px;
+    }
+}
+@media (max-width: 767.98px) {
+    .section-home-gyeon-way .section-header {
+        margin: 0 20px 30px;
+        font-size: 47px;
+        word-break: break-word;
+    }
+    .products-container .section-home-coatings {
+        height: 1200px;
+    }
+    .products-container .vertical-text {
+        top: 300px;
+    }
+    .products-container .vertical-text h2.display-2 {
+        font-size: 65px;
+    }
+    .products-container .section-home-coatings .container .bottle1 {
+        top: 25%;
+        right: 8%;
+    }
+    .products-container .section-home-coatings .container .bottle2 {
+        top: 28%;
+        width: 280px;
+    }
+    .products-container .section-home-coatings .container .blue-ball {
+        top: 18%;
+        left: -3%;
+    }
+    .products-container .section-home-coatings .container .text-box {
+        bottom: 0;
+        left: 20px;
+    }
+    .products-container .section-home-maintenance .vertical-text {
+        top: 310px;
+    }
+    .products-container .vertical-text {
+        top: 300px;
+    }
+    .products-container .section-home-maintenance .container .text-box {
+        right: unset;
+        bottom: 0;
+        left: 20px;
+    }
+    .products-container .section-home-maintenance .container .q2m {
+        top: 9%;
+        right: 7%;
+    }
+    .products-container .section-home-maintenance .container .blue-ball-medium {
+        top: 52%;
+        left: 65%;
+        width: 75px;
+    }
+    .products-container .section-home-maintenance .container .blue-bubble {
+        top: 46%;
+        left: 46%;
+        width: 182px;
+    }
+    .products-container .section-home-maintenance .container .violet-ball {
+        top: -4%;
+        left: 56%;
+        width: 65px;
+        height: 50px;
+    }
+    .products-container .section-home-maintenance .container .bottle3 {
+        top: 10%;
+        left: 57%;
+    }
+    .products-container .section-home-maintenance .container .diamond3 {
+        bottom: 25%;
+        left: -20%;
+        width: 210px;
+        height: 233px;
+    }
+    .products-container .section-home-accessories .container .speaker {
+        top: 33%;
+        right: -14%;
+        z-index: 2;
+    }
+    .products-container .section-home-accessories .container .acc-ball {
+        top: 40%;
+        right: 25%;
+        z-index: 2;
+    }
+    .products-container .section-home-accessories .container .acc-bubble {
+        top: 38.5%;
+        right: 18%;
+        z-index: 3;
+    }
+    .products-container .section-home-accessories .container .acc-ball2 {
+        top: 32%;
+        bottom: unset;
+        left: 12%;
+    }
+    .products-container .section-home-accessories .container .acc-ball3 {
+        top: 35%;
+        bottom: unset;
+        left: 30%;
+    }
+    .products-container .section-home-accessories .container .acc-bubble2 {
+        top: 28.5%;
+        bottom: unset;
+        left: 8%;
+    }
+    .products-container .section-home-ppf {
+        height: 900px;
+    }
+    .products-container .section-home-ppf .diamond4 {
+        top: -11%;
+        right: -23%;
+        width: 195px;
+        height: 265px;
+    }
+    .products-container .text-box {
+        width: 40vw;
+    }
+    .products-container .section-home-ppf .container .text-box {
+        top: unset;
+        right: unset;
+        bottom: 20%;
+        left: 20px;
+    }
+    .products-container .section-home-ppf .container .q2f {
+        top: 20%;
+        right: 11%;
+    }
+    .products-container .section-home-ppf .container .ppf1 {
+        top: 48%;
+        left: 67%;
+    }
+    .products-container .section-home-ppf .container .ppf2 {
+        top: -3%;
+        left: -13%;
+    }
+    .products-container .section-home-yachts-boats .container .text-box {
+        bottom: 90px;
+        left: 20px;
+    }
+    .products-container .section-home-yachts-boats .container .q2r {
+        top: 15%;
+        left: 10%;
+    }
+    .products-container .section-home-yachts-boats .container .crystal {
+        top: 50%;
+        left: 0;
+    }
+    .products-container .section-home-yachts-boats .container .bottle5 {
+        top: 30%;
+    }
+    .products-container .section-home-yachts-boats .container .bottle6 {
+        top: 30%;
+        right: 50%;
+    }
+    .products-container .section-home-yachts-boats .container .little-crystal {
+        top: 50%;
+        right: 50%;
+    }
+    .products-container .section-home-yachts-boats .container .little-ball {
+        top: -5%;
+        right: 70%;
+    }
+    .section-home-global-network .text-box {
+        top: 160px;
+        bottom: unset;
+        left: 20px;
+    }
+    .section-home-global-network .text-box .text-box-header {
+        margin-bottom: 15px;
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .section-home-global-network .text-box p {
+        width: inherit;
+        font-size: 16px;
+    }
+}
+@media (max-width: 575.98px) {
+    .products-container .text-box {
+        width: 75vw;
+    }
+}
+@media (min-width: 992px) {
+    .section-home-gyeon-way .section-header span {
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1200px) {
+    .display-2 {
+        font-size: 7.33333rem;
+    }
+    .section-home-global-network .text-box {
+        width: 30rem;
+    }
+}
+
+
