@@ -85,6 +85,10 @@ body, html {
   scrollbar-face-color: #dee2e6;
   scroll-behavior: smooth;
 }
+.lax {
+  transition: transform 0.2s ease-out; /* Smooth transition */
+  will-change: transform; /* Hint the browser to optimize for transform changes */
+}
 a {
   text-decoration: none;
 }

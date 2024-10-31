@@ -1,5 +1,6 @@
 
   $(document).ready(function(){
+    $('html').removeClass('has-scroll-smooth');
     $(window).on('scroll', function() {
       if ($(window).scrollTop() >= 10) {
           $('.header_main').addClass('fixed-nav');
@@ -196,42 +197,6 @@
       $('.filter_box .filter').removeClass('active');
     })
 
-    $('.main_slider_box').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: true,
-      fade: true,
-      asNavFor: '.nav_slider_box'
-    });
-    $('.nav_slider_box').slick({
-      slidesToShow: 6,
-      slidesToScroll: 1,
-      asNavFor: '.main_slider_box',
-      dots: false,
-      centerMode: false,
-      arrows: false,
-      focusOnSelect: true,
-      vertical: true, // Default to vertical on desktop
-      responsive: [
-            {
-                breakpoint: 992, // Mobile breakpoint
-                settings: {
-                    vertical: false, // Horizontal slider for mobile
-                    slidesToShow: 4, // Adjust number of visible slides for smaller screens
-                }
-            }
-        ]
-    });
-    var $navSlider = $('.nav_slider_box');
-    var navOffset = $navSlider.offset().top;
-
-    $(window).on('scroll', function () {
-      if ($(window).scrollTop() > navOffset) {
-        $navSlider.addClass('fixed-nav');
-      } else {
-        $navSlider.removeClass('fixed-nav');
-      }
-    });
   });
   
   const multiLevelMenu = document.querySelector(".multi-level-menu-wrapper");
@@ -258,4 +223,45 @@ $(document).ready(function(){
     });
     
   });
+  $(document).ready(function () {
+    function applyParallax() {
+        let scrollPosition = $(window).scrollTop();
+        
+        // Loop through each section
+        $('article').each(function () {
+            let sectionOffset = $(this).offset().top;
+            let sectionHeight = $(this).outerHeight();
+            let sectionEnd = sectionOffset + sectionHeight;
+
+            // Check if the current scroll position is within this section
+            if (scrollPosition >= sectionOffset && scrollPosition < sectionEnd) {
+                // Calculate the position relative to the section
+                let relativeScrollPosition = scrollPosition - sectionOffset;
+
+                $(this).find('.lax').each(function () {
+                    let speed = parseFloat($(this).data('speed')) || 1; // Default speed to 1
+                    let direction = $(this).data('direction') || 'down'; // Default direction to down
+                    let translateY = relativeScrollPosition * speed;
+
+                    // Reverse direction if needed
+                    if (direction === 'up') {
+                        translateY = -translateY;
+                    }
+
+                    // Apply the transformation
+                    $(this).css('transform', `translateY(${translateY}px)`);
+                });
+            }
+        });
+        
+    }
+
+    // Optimized scroll event handling with requestAnimationFrame
+    $(window).on('scroll', function () {
+        window.requestAnimationFrame(applyParallax);
+    });
+
+    // Initial positioning
+    applyParallax();
+});
 });
