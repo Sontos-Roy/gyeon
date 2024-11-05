@@ -427,6 +427,9 @@ header .fixed_brand_nav img{
   }
 }
 .header_main .menu-item>a {
+  color: #070707;
+}
+.header_main.home .menu-item>a {
   color: #fff;
 }
 @media (min-width: 1200px){

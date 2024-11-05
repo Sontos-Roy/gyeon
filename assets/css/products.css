@@ -1,0 +1,176 @@
+.header-wrap {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 62vh;
+    padding: 30px;
+    background-color: #f3f3f3;
+}
+.header-wrap {
+    height: 75vh;
+    background-color: #fff;
+    background-size: contain;
+    margin-top: 2%;
+    position: relative;
+}
+.header-wrap .scroll {
+    z-index: 5;
+    bottom: 3.2rem;
+}
+.header-wrap .container {
+    height: 100%;
+}
+.header-wrap .scroll .scroll-arrow:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    width: 1px;
+    height: 5.66667rem;
+    background: #6a6a6a;
+}
+.description-wrap {
+    background: #fff;
+    text-align: center;
+}
+.description-wrap .section-small-header {
+    padding: 0;
+}
+.products-wrap {
+    text-align: center;
+    background: #eef0f7;
+}
+.sticky-wrapper {
+    height: 0% !important;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, .1);
+}
+.products-wrap .sticky-wrapper {
+    box-shadow: none;
+    background-color: #fff;
+}
+.products-wrap .products-container {
+    margin-top: 20px;
+    background: #eef0f7;
+}
+.products-wrap .products-container .products-grid {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.product-link {
+    opacity: 1;
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+    transition: 0.3s;
+    display: block;
+    width: 290px;
+    padding: 5px;
+    color: rgb(7, 0, 7);
+}
+.product-link:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.product-link .product-wrap {
+    display: inline-block;
+    width: 280px;
+    height: 440px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+.product-link .product-wrap .image {
+    width: 280px;
+    height: 280px;
+    background: #fff;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.product-link .product-wrap .product-info {
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    height: auto;
+    min-height: 125px;
+}
+.section-header {
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.product-link .product-wrap .product-info .section-header {
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.product-link .product-wrap .product-info .product-name {
+    font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.product-link .product-wrap .product-info .section-header .section-title {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.product-symbol {
+    display: inline-block;
+    margin-right: .16em;
+    font-family: GT America Expanded, GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 100;
+    color: #21314d;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.section-header .product-symbol {
+    font-size: 30px;
+}
+.product-link .product-wrap .product-info .product-name, .product-link .product-wrap .product-info .product-symbol {
+    font-size: 1.25rem;
+}
+.product-symbol .product-symbol-first {
+    letter-spacing: 0;
+}
+.product-symbol .product-symbol-number {
+    letter-spacing: -.01em;
+    font-size: 60%;
+    top: .5em;
+}
+.product-symbol .product-symbol-second {
+    letter-spacing: -.11em;
+}
+.product-link .product-wrap .product-info .product-capacities {
+    margin: 10px 0;
+    font-size: .6875rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #21314d;
+}
+.product-link .product-wrap .product-info .section-header+p {
+    padding: 0;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+.product-link .product-wrap .product-info .product-description {
+    font-size: .75rem;
+    color: #21314d;
+    font-weight: 300;
+}
+@media only screen and (min-width: 1681px) {
+    .header-wrap {
+        background-image: url('../image/sliders/product.jpg');
+    }
+}

@@ -4,416 +4,733 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RIZMAC | Click n' Cart</title>
+    <title>Tonyin Bangladesh</title>
     <link rel="shortcut icon" href="assets/image/favicon_icon.webp" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/locomotive-scroll/4.1.4/locomotive-scroll.min.css" />
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/silck/slick.css" />
     <link rel="stylesheet" href="assets/silck/slick-theme.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/products.css" />
     <link rel="stylesheet" href="assets/css/media.css" />
 </head>
 
 <body>
     <!-- header Start  -->
     <div class="main-wrapper">
-        <div class="topbar border-bottom border-muted p-2">
-            <div class="container">
-                <div class="d-flex">
-                    <a href="tel:005266242" class="nav-link text-secondary">00 565 4515</a>
-                    <a href="mail:abc.123@gmail.com" class="nav-link text-secondary ms-3">abc.123@gmail.com</a>
-                </div>
-            </div>
-        </div>
-        <header class="header_main">
-            <nav class="navbar navbar-expand-sm navbar-light py-4">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/image/logo.png" width="120" alt="">
-                    </a>
-                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavId">
-                        <ul class="navbar-nav m-auto mt-2 mt-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#" aria-current="page">Home </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pages</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="shop.html">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex my-2 my-lg-0">
-                            <input class="form-control me-sm-2 shadow-none rounded-5" type="text"
-                                placeholder="Search" />
-                            <button class="btn btn-success my-0 my-sm-0" type="submit">
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </form>
+        <div class="header_div">
+            <header class="header_main">
+                <nav class="navbar navbar-expand-sm navbar-light py-0">
+                    <div class="container-fluid custom_padding">
+                        <a class="navbar-brand col-lg-1 col-md-10 py-0" href="index.html">
+                            <img src="assets/image/logo_main.jpeg" class=" white_logo" height="70" alt="" />
+                            <img src="assets/image/logo_main.jpeg" class=" purple_logo" height="70"
+                                alt="" />
+                        </a>
+                        <div class="col-lg-11 menu " id="menu">
+                            <div class="col-lg-10 col-12 menu-content_center text-end h-100">
+                                <div class="d-xl-none mobile-logo text-start p-3">
+                                    <a href="index.html">
+                                        <img src="assets/image/logo_main.jpeg" alt="Gyeon Logo" class="brand-logo" height="70" />
+                                    </a>
+                                </div>
+                                <ul class="main-menu">
+                                    <li class="menu-item current-menu-item d-block d-sm-none">
+                                        <a href="index.html" class="menu-item-link mb-3 d-block" target="">
+                                            <span class="inner-text">Home Page</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item submenu-items has-submenu">
+                                        <a href="#" class="menu-item-link" target="">
+                                            <span class="inner-text">About Tonyin</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="item" style="line-height: 50px;">
+                                                <a href="#" target="">About Us</a>
+                                            </li>
+                                            <li class="item" style="line-height: 50px;">
+                                                <a href="#" target="">Why Tonyin ?</a>
+                                            </li>
+                                            <li class="item" style="line-height: 50px;">
+                                                <a href="#" target="_blank">FAQ</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-item submenu-items has-submenu">
+                                        <a href="#" class="menu-item-link" target="">
+                                            <span class="inner-text">Products</span>
+                                        </a>
+                                        <div class="product-collections-wrap">
+                                            <div class="product-collection-column">
+                                                <div class="col-sm-12 col-lg-12 product-collections-type">
+                                                    <div class="product-collections-type__box active">
+                                                        <img src="https://gyeon.co/wp-content/uploads/2021/01/menu_background_automotive.jpg"
+                                                            alt="">
+                                                        <span class="product-collections-type__title ">
+                                                            Automotive </span>
+                                                    </div>
+                                                    <div class="product-collections-type__box ">
+                                                        <img src="https://gyeon.co/wp-content/uploads/2018/11/background_tab_marine.jpg"
+                                                            alt="">
+                                                        <span class="product-collections-type__title ">
+                                                             </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-10 product-collection-submenu">
+                                                <div class="row box-content ">
+                                                    <div class="d-none d-lg-block product-collection__header">
+                                                        <h3 class="product-collection__header--title">AUTOMOTIVE
+                                                            PRODUCTS </h3>
+                                                    </div>
+                                                    <div class="col-sm-12 col-lg-3 product-collection-taxonomie">
+                                                        <div class="product-collection-steps">
+                                                            <a class="" href="">
+                                                                <span class="item-step">STEP 1 -</span> <span
+                                                                    class="item-title">Prepare</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="product-collection-purpose">
+                                                            <a href="">
+                                                                <span class="item-title">Fabrics</span>
+                                                            </a>
+                                                            <a href="">
+                                                                <span class="item-title">Glass</span>
+                                                            </a>
+                                                            <a href="">
+                                                                <span class="item-title">Leather</span>
+                                                            </a>
+                                                            <a href="">
+                                                                <span class="item-title">PPF</span>
+                                                            </a>
+                                                            <a href="">
+                                                                <span class="item-title">Paint</span>
+                                                            </a>
+                                                            <a href="">
+                                                                <span class="item-title">Trim</span>
+                                                            </a>
+                                                            <a href="">
+                                                                <span class="item-title">Wheels</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12 col-lg-3 product-collection-taxonomie">
+                                                        <div class="product-collection-steps">
+                                                            <a class="" href="">
+                                                                <span class="item-step">STEP 2 -</span> <span
+                                                                    class="item-title">Protect</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="product-collection-purpose">
+                                                            <a href="">
+                                                                <span class="item-title">Fabrics</span>
+                                                            </a>
+                                                            <a href="">
+                                                                <span class="item-title">Glass</span>
+                                                            </a>
+                                                            <a href="">
+                                                                <span class="item-title">Leather</span>
+                                                            </a>
+                                                            <a href="">
+                                                                <span class="item-title">Maintenance</span>
+                                                            </a>
+                                                            <a href="">
+                                                                <span class="item-title">PPF</span>
+                                                            </a>
+
+
+                                                            <a href="">
+                                                                <span class="item-title">Paint</span>
+                                                            </a>
+
+
+                                                            <a href="">
+                                                                <span class="item-title">Trim</span>
+                                                            </a>
+
+
+                                                            <a href="">
+                                                                <span class="item-title">Wheels</span>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12 col-lg-3 product-collection-taxonomie">
+                                                        <div class="product-collection-steps">
+                                                            <a class="" href="">
+                                                                <span class="item-step">STEP 3 -</span> <span
+                                                                    class="item-title">Maintain</span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="product-collection-purpose">
+
+                                                            <a href="">
+                                                                <span class="item-title">Fabrics</span>
+                                                            </a>
+
+
+                                                            <a href="">
+                                                                <span class="item-title">Glass</span>
+                                                            </a>
+
+
+                                                            <a href="">
+                                                                <span class="item-title">Leather</span>
+                                                            </a>
+
+
+                                                            <a href="">
+                                                                <span class="item-title">Maintenance</span>
+                                                            </a>
+
+
+                                                            <a href="">
+                                                                <span class="item-title">PPF</span>
+                                                            </a>
+
+
+                                                            <a href="">
+                                                                <span class="item-title">Paint</span>
+                                                            </a>
+
+
+                                                            <a href="">
+                                                                <span class="item-title">Trim</span>
+                                                            </a>
+
+
+                                                            <a href="">
+                                                                <span class="item-title">Wheels</span>
+                                                            </a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="menu-item submenu-items has-submenu">
+                                        <a href="#" class="menu-item-link" target="">
+                                            <span class="inner-text">Experience Center</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="item" style="line-height: 50px;">
+                                                <a href="" target="">Dhaka</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="menu-item">
+                                        <a href="https://gyeon.co/contact/" class="menu-item-link" target="">
+                                            <span class="inner-text">Contact Us</span>
+                                        </a>
+                                    </li>
+
+                                    <li
+                                        class="menu-item regional-distributor d-lg-none submenu-regional-distributors has-submenu">
+                                        <a href="#" class="menu-item-link" target="">
+                                            <span class="inner-text">Regional websites</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="d-lg-none close-icon" id="main-menu-close"></div>
+                            </div>
+                            <div class="d-none d-lg-none col-lg-2 menu__language">
+                                <div class="regional-distributors-wrap">
+                                    <div class="d-none d-lg-flex subsection-title">
+                                        Gyeon Global
+                                    </div>
+                                    <div class="regional-distributors-subsections">
+                                        <div class="d-none d-lg-block reginal-distributors-header">
+                                            Country Websites </div>
+                                        <div class="reginal-distributors-global">
+                                            <a href="https://gyeon.co" class="current_country_website">
+                                                Gyeon Global </a>
+                                        </div>
+                                        <div class="country-menu">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-lg-6 continent-label">
+
+                                                    Australia and Oceania
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-6 countries-label">
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeonquartz.com.au" class="">
+                                                            Australia </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-lg-6 continent-label">
+
+                                                    Asia
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-6 countries-label">
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeonquartz.jp" class="">
+                                                            Japan </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeongcc.com" class="">
+                                                            Oman </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeonquartz.com.sg" class="">
+                                                            Singapore </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeonquartz.co.kr" class="">
+                                                            South Korea </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeonvietnam.vn" class="">
+                                                            Vietnam </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-lg-6 continent-label">
+
+                                                    Europe
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-6 countries-label">
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeonbelgium.com" class="">
+                                                            Belgium </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeonquartz.it" class="">
+                                                            Italy </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeonquartz.nl" class="">
+                                                            Netherlands </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeon.pl" class="">
+                                                            Poland </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeon.pt" class="">
+                                                            Portugal </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeon.su" class="">
+                                                            Russia </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeonquartz.es" class="">
+                                                            Spain </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeon.ch" class="">
+                                                            Switzerland </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeonquartzturkiye.com/" class="">
+                                                            Turkey </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://www.gyeonquartz.uk" class="">
+                                                            United Kingdom </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="https://gyeonfrance.com" class="">
+                                                            France </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-lg-6 continent-label">
+
+                                                    North America
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-6 countries-label">
+                                                    <div class="country-label ">
+                                                        <a href="http://gyeonquartzusa.com" class="">
+                                                            USA </a>
+                                                    </div>
+                                                    <div class="country-label ">
+                                                        <a href="http://gyeonquartzmx.com" class="">
+                                                            Mexico </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12 col-lg-6 continent-label">
+
+                                                    South America
+                                                </div>
+
+                                                <div class="col-sm-12 col-lg-6 countries-label">
+                                                    <div class="country-label ">
+                                                        <a href="http://gyeonquartzbr.com" class="">
+                                                            Brazil </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-hamburger" id="top-hamburger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="18" viewBox="0 0 30 16">
+                                <rect width="25" height="3"></rect>
+                                <rect y="7" width="30" height="3"></rect>
+                                <rect y="14" width="25" height="3"></rect>
+                            </svg>
+                        </div>
                     </div>
-                </div>
-            </nav>
-            <div class="overlay"></div>
-        </header>
+                </nav>
+                <div class="overlay"></div>
+            </header>
+        </div>
         <main>
-            <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-12">
-                            <div class="row">
-                                <div class="col-lg-2 col-12 order-2 order-lg-0">
-                                    
-                                    <div class="nav_slider_box">
-                                        <div class="p-1 width-fixed">
-                                            <img src="assets/image/products/11.jpg" alt="">
-                                        </div>
-                                        <div class="p-1 width-fixed">
-                                            <img src="assets/image/products/11.jpg" alt="">
-                                        </div>
-                                        <div class="p-1 width-fixed">
-                                            <img src="assets/image/products/11.jpg" alt="">
-                                        </div>
-                                        <div class="p-1 width-fixed">
-                                            <img src="assets/image/products/11.jpg" alt="">
-                                        </div>
-                                        <div class="p-1 width-fixed">
-                                            <img src="assets/image/products/11.jpg" alt="">
-                                        </div>
-                                        <div class="p-1 width-fixed">
-                                            <img src="assets/image/products/11.jpg" alt="">
-                                        </div>
-                                        <div class="p-1 width-fixed">
-                                            <img src="assets/image/products/11.jpg" alt="">
-                                        </div>
-                                        <div class="p-1 width-fixed">
-                                            <img src="assets/image/products/11.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                                <div class="col-lg-10 col-12 order-0 order-lg-2">
-                                    <div class="main_slider_box">
-                                        <div class="">
-                                            <img src="assets/image/products/11.jpg" class="w-100" alt="">
-                                        </div>
-                                        <div class="">
-                                            <img src="assets/image/products/11.jpg" class="w-100" alt="">
-                                        </div>
-                                        <div class="">
-                                            <img src="assets/image/products/11.jpg" class="w-100" alt="">
-                                        </div>
-                                        <div class="">
-                                            <img src="assets/image/products/11.jpg" class="w-100" alt="">
-                                        </div>
-                                        <div class="">
-                                            <img src="assets/image/products/11.jpg" class="w-100" alt="">
-                                        </div>
-                                        <div class="">
-                                            <img src="assets/image/products/11.jpg" class="w-100" alt="">
-                                        </div>
-                                        <div class="">
-                                            <img src="assets/image/products/11.jpg" class="w-100" alt="">
-                                        </div>
-                                        <div class="">
-                                            <img src="assets/image/products/11.jpg" class="w-100" alt="">
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-12 mt-4 mt-lg-0">
-                            <nav class="breadcrumb">
-                                <a class="breadcrumb-item text-muted" href="/">Home</a>
-                                <a class="breadcrumb-item text-muted" href="/">Collection</a>
-                                <span class="breadcrumb-item active" aria-current="page">Hoodie</span>
-                            </nav>
-                            <h2 class="primary text-cap fw-bold">Product Name</h2>
-                            <div class="stars">
-                                <h2 class="fa fa-star primary" aria-hidden="true"></h2>
-                                <h2 class="fa fa-star primary" aria-hidden="true"></h2>
-                                <h2 class="fa fa-star primary" aria-hidden="true"></h2>
-                                <h2 class="fa fa-star primary" aria-hidden="true"></h2>
-                                <h2 class="far fa-star primary" aria-hidden="true"></h2>
-                            </div>
-                            <h3 class="text-muted my-3">Color</h3>
-                            <div class="colors">
-                                <div class="color" style="background: red;"></div>
-                                <div class="color" style="background: yellow;"></div>
-                                <div class="color" style="background: black;"></div>
-                                <div class="color" style="background: green;"></div>
-                            </div>
-                            <div class="d-flex my-4 align-items-center">
-                                <h4 class="m-0 text-muted">QTY</h4>
-                                <select name="" class="form-select border-0 shadow-none ms-4" style="width: 60px;" id="">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="10">10</option>
-                                </select>
-                            </div>
-                            <h2 class="primary fw-bold">$00.00</h2>
-                            <a href="cart.html" class="btn btn-primary border-0 primary-bg rounded-0 col-lg-6 col-12 fw-bold my-4"><h3 class="m-0">Add to cart</h3></a>
-                        </div>
-                    </div>
+            <section class="header-wrap">
+                <div class="scroll d-none d-md-block position-absolute w-100 animated" data-animate-class="fadeInUpMedium" data-animate-delay="700">
+                  <div class="container text-center">
+                    <a class="scroll-arrow position-relative smooth-scroll text-dark" href="#products-wrap--list">SCROLL</a>
+                  </div>
                 </div>
             </section>
-            <section>
-                <div class="container">
-                    <h1 class="primary fw-bold my-4">
-                        I'm sure you will like it
-                    </h1>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-4 col-6 mb-3">
-                            <div class="product_item">
-                                <div class="image">
-                                    <a href="">
-                                        <img src="assets/image/collection/1.webp" alt="">
-                                    </a>
-                                    <div class="container product_button">
-                                        <select name="" class="form-select shadow-none border-muted rounded-3" id="">
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                        </select>
-                                        <button class="btn btn-primary border-0 primary-bg rounded-3 col-12 fw-bold my-2">Add to cart</button>
-                                    </div>
-                                </div>
-                                <div class="hover_menu">
-                                    <a href="#">
-                                        <i class="fa fa-eye"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </div>
-                                <div class="offer">
-                                    00%
-                                </div>
-                                <div class="content mt-3">
-                                    
-                                    <a href=""><h3 class="product_name primary fw-bold mt-3">Product Name </h3></a>
-                                    <div class="price mt-1">
-                                        <span class="text-secondary font-20">$100.00</span>
-                                        <del class="text-danger ms-3">$100.00</del>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-6 mb-3">
-                            <div class="product_item">
-                                <div class="image">
-                                    <a href="">
-                                        <img src="assets/image/collection/1.webp" alt="">
-                                    </a>
-                                    <div class="container product_button">
-                                        <select name="" class="form-select shadow-none border-muted rounded-3" id="">
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                        </select>
-                                        <button class="btn btn-primary border-0 primary-bg rounded-3 col-12 fw-bold my-2">Add to cart</button>
-                                    </div>
-                                </div>
-                                <div class="hover_menu">
-                                    <a href="#">
-                                        <i class="fa fa-eye"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </div>
-                                <div class="offer">
-                                    00%
-                                </div>
-                                <div class="content mt-3">
-                                    
-                                    <a href=""><h3 class="product_name primary fw-bold mt-3">Product Name </h3></a>
-                                    <div class="price mt-1">
-                                        <span class="text-secondary font-20">$100.00</span>
-                                        <del class="text-danger ms-3">$100.00</del>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-6 mb-3">
-                            <div class="product_item">
-                                <div class="image">
-                                    <a href="">
-                                        <img src="assets/image/collection/1.webp" alt="">
-                                    </a>
-                                    <div class="container product_button">
-                                        <select name="" class="form-select shadow-none border-muted rounded-3" id="">
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                        </select>
-                                        <button class="btn btn-primary border-0 primary-bg rounded-3 col-12 fw-bold my-2">Add to cart</button>
-                                    </div>
-                                </div>
-                                <div class="hover_menu">
-                                    <a href="#">
-                                        <i class="fa fa-eye"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </div>
-                                <div class="offer">
-                                    00%
-                                </div>
-                                <div class="content mt-3">
-                                    
-                                    <a href=""><h3 class="product_name primary fw-bold mt-3">Product Name </h3></a>
-                                    <div class="price mt-1">
-                                        <span class="text-secondary font-20">$100.00</span>
-                                        <del class="text-danger ms-3">$100.00</del>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-4 col-6 mb-3">
-                            <div class="product_item">
-                                <div class="image">
-                                    <a href="">
-                                        <img src="assets/image/collection/1.webp" alt="">
-                                    </a>
-                                    <div class="container product_button">
-                                        <select name="" class="form-select shadow-none border-muted rounded-3" id="">
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                            <option value="">abc</option>
-                                        </select>
-                                        <button class="btn btn-primary border-0 primary-bg rounded-3 col-12 fw-bold my-2">Add to cart</button>
-                                    </div>
-                                </div>
-                                <div class="hover_menu">
-                                    <a href="#">
-                                        <i class="fa fa-eye"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fas fa-shopping-cart"></i>
-                                    </a>
-                                </div>
-                                <div class="offer">
-                                    00%
-                                </div>
-                                <div class="content mt-3">
-                                    
-                                    <a href=""><h3 class="product_name primary fw-bold mt-3">Product Name </h3></a>
-                                    <div class="price mt-1">
-                                        <span class="text-secondary font-20">$100.00</span>
-                                        <del class="text-danger ms-3">$100.00</del>
+            <section class="description-wrap">
+                <h1 class="section-small-header text-muted text-cap text-center">
+                  All our products
+                </h1>
+            </section>
+            <div id="products-wrap--list" class="products-wrap">
+                <header class="sticky-wrapper">
+                    <div class="filters-container">
+                        <div class="products-list-filters" id="show-filters">
+                            <div class="container">
+                                <div class="filters-wrap">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-12">
+                                            <div class="form-select-wrap">
+                                                <div class="selectric-wrapper selectric-form-control">
+                                                    <div class="selectric-hide-select">
+                                                        <select name="collection" class="form-select shadow-none border border-dark rounded-0">
+                                                            <option value="" disabled="disabled">Select product collections</option>
+                                                            <option value="213">Apparel</option>
+                                                            <option value="212">PPF</option>
+                                                            <option value="270">Purify</option>
+                                                            <option value="4">Q2</option>
+                                                            <option value="5">Q2M</option>
+                                                            <option value="6">Q2M Accessories</option>
+                                                            <option value="186">Q2R Yachts &amp; Aircrafts</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-12">
+                                            <div class="form-select-wrap">
+                                                <div class="selectric-wrapper selectric-form-control border border-dark rounded-0">
+                                                    <div class="selectric-hide-select">
+                                                        <select class="form-select shadow-none">
+                                                            <option value="" disabled="disabled">Select step of detailing process      </option>
+                                                            <option value="">Show all steps      </option>
+                                                            <option value="183">Prepare      </option>
+                                                            <option value="185">Protect      </option>
+                                                            <option value="184">Maintain      </option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-12">
+                                            <div class="form-select-wrap">
+                                                <div class="selectric-wrapper selectric-form-control">
+                                                    <div class="selectric-hide-select">
+                                                        <select name="purpose" class="form-select shadow-none border border-dark rounded-0">
+                                                            <option value="" disabled="disabled">Select product purpose</option>
+                                                            <option value="">Show all purposes</option>
+                                                            <option value="80">Fabrics</option>
+                                                            <option value="189">Gelcoat</option>
+                                                            <option value="79">Glass</option>
+                                                            <option value="81">Leather</option>
+                                                            <option value="82">Maintenance</option>
+                                                            <option value="76">Paint</option>
+                                                            <option value="187">PPF</option>
+                                                            <option value="77">Trim</option>
+                                                            <option value="78">Wheels</option>
+                                                            <option value="188">Wood</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-12">
+                                            <div class="searchBox-form">
+                                                <form class="navbar-form" role="search" method="GET" action="https://gyeon.co/products-list/">
+                                                    <div class="form-group">
+                                                        <input type="search" name="search" class="form-control search-autocomplete shadow-none border-bottom border-dark rounded-0 border-top-0 border-end-0 border-start-0" placeholder="Search" autocomplete="off">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </header>
+                <div class="container products-container">
+                    <div id="products-grid" class="products-grid row">
+                        <a href="https://gyeon.co/product/fabriccleaner/" class="product-link">
+                            <div class="product-wrap">
+                                <img class="image" src="https://gyeon.co/wp-content/uploads/2024/01/1000-fabric-cleaner-840-840x840.png">
+                                <div class="product-info">
+                                    <header class="section-header">
+                                        <h2 class="section-title product-name display-4">
+                                            <span class="product-symbol">
+                                            <span class="product-symbol-first">
+                                            Q<sup>      </sup></span>
+                                            <sup class="product-symbol-number">
+                                            2      </sup>
+                                            <span class="product-symbol-second">
+                                            M      </span>
+                                            </span>FABRICCLEANER
+                                        </h2>
+                                    </header>
+                                    <p class="product-capacities">
+                                        CAPACITIES:
+                                        <span class="capacities">
+                                        <span>
+                                        1000 ML
+                                        </span>
+                                        </span>
+                                    </p>
+                                    <p class="product-description">
+                                        Strong and effective textile cleaner and pre-spray.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://gyeon.co/product/apc/" class="product-link">
+                            <div class="product-wrap">
+                                <img class="image" src="https://gyeon.co/wp-content/uploads/2020/11/1000-apc-840-1-840x840.png">
+                                <div class="product-info">
+                                    <header class="section-header">
+                                        <h2 class="section-title product-name display-4">
+                                            <span class="product-symbol">
+                                            <span class="product-symbol-first">
+                                            Q<sup>      </sup></span>
+                                            <sup class="product-symbol-number">
+                                            2      </sup>
+                                            <span class="product-symbol-second">
+                                            M      </span>
+                                            </span>APC
+                                        </h2>
+                                    </header>
+                                    <p class="product-capacities">
+                                        CAPACITIES:
+                                        <span class="capacities">
+                                        <span>
+                                        1000 ML
+                                        <span>/</span>
+                                        </span>
+                                        <span>
+                                        4000 ML
+                                        </span>
+                                        </span>
+                                    </p>
+                                    <p class="product-description">
+                                        Powerful cleaner for all exterior and interior car surfaces.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://gyeon.co/microfibres" class="product-link">
+                            <div class="product-wrap">
+                                <img class="image" src="https://gyeon.co/wp-content/uploads/2022/12/gyeon_scrubpad_3-840x840.png">
+                                <div class="product-info">
+                                    <header class="section-header">
+                                        <h2 class="section-title product-name display-4">
+                                            <span class="product-symbol">
+                                            <span class="product-symbol-first">
+                                            Q<sup>      </sup></span>
+                                            <sup class="product-symbol-number">
+                                            2      </sup>
+                                            <span class="product-symbol-second">
+                                            M      </span>
+                                            </span>SCRUBPAD EVO
+                                        </h2>
+                                    </header>
+                                    <p class="product-capacities">
+                                        SIZES:
+                                        <span class="capacities">
+                                        <span>
+                                        8x10 cm
+                                        </span>
+                                        </span>
+                                    </p>
+                                    <p class="product-description">
+                                        The white side is perfect for cleaning leather or removing dirt deposits from plastic trim
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://gyeon.co/microfibres/" class="product-link">
+                            <div class="product-wrap">
+                                <img class="image" src="https://gyeon.co/wp-content/uploads/2022/12/gyeon_interiorwipe_3-840x840.png">
+                                <div class="product-info">
+                                    <header class="section-header">
+                                        <h2 class="section-title product-name display-4">
+                                            <span class="product-symbol">
+                                            <span class="product-symbol-first">
+                                            Q<sup>      </sup></span>
+                                            <sup class="product-symbol-number">
+                                            2      </sup>
+                                            <span class="product-symbol-second">
+                                            M      </span>
+                                            </span>INTERIORWIPE EVO
+                                        </h2>
+                                    </header>
+                                    <p class="product-capacities">
+                                        SIZES:
+                                        <span class="capacities">
+                                        <span>
+                                        40x40 cm
+                                        </span>
+                                        </span>
+                                    </p>
+                                    <p class="product-description">
+                                        Q²M InteriorWipe EVO is the perfect choice to clean all types of trim
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://gyeon.co/product/prism-mini/" class="product-link">
+                            <div class="product-wrap">
+                                <img class="image" src="https://gyeon.co/wp-content/uploads/2019/09/productlist_q2mprismmini_840x840px-840x840.png">
+                                <div class="product-info">
+                                    <header class="section-header">
+                                        <h2 class="section-title product-name display-4">
+                                            PRISM MINI
+                                        </h2>
+                                    </header>
+                                    <p class="product-capacities">
+                                        <br>
+                                        <span class="capacities">
+                                        </span>
+                                    </p>
+                                    <p class="product-description">
+                                        A handy detailing inspection light.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://gyeon.co/product/prism-plus/" class="product-link">
+                            <div class="product-wrap">
+                                <img class="image" src="https://gyeon.co/wp-content/uploads/2019/09/productlist_q2mprismplus_840x840px-840x840.png">
+                                <div class="product-info">
+                                    <header class="section-header">
+                                        <h2 class="section-title product-name display-4">
+                                            PRISM PLUS
+                                        </h2>
+                                    </header>
+                                    <p class="product-capacities">
+                                        <br>
+                                        <span class="capacities">
+                                        </span>
+                                    </p>
+                                    <p class="product-description">
+                                        A versatile detailing light designed especially for coating application and paint correction.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <footer class="row products-load-more-wrap">
+                        <button id="products-load-more" class="btn btn-link btn-load-more hidden">
+                            Load more            
+                        </button>
+                    </footer>
                 </div>
-            </section>
-
+            </div>
         </main>
-        <footer class="bg-muted">
-            <div class="container py-5 px-lg-5 px-3">
-                <div class="row">
-                    <div class="col-lg-2 col-12 mb-3">
-                        <h5 class="mb-4 primary">Product</h5>
-                        <ul class="list-unstyled text_dark_footer_menu">
-                            <li><a href="">New</a></li>
-                            <li><a href="">Upcomming</a></li>
-                            <li><a href="">Collection</a></li>
-                            <li><a href="">On Sale</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-12 mb-3">
-                        <h5 class="mb-4 primary">Others</h5>
-                        <ul class="list-unstyled text_dark_footer_menu">
-                            <li><a href="">Program Post</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Live Demo</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-12 mb-3">
-                        <h5 class="mb-4 primary">Contact Us</h5>
-                        <ul class="list-unstyled text_dark_footer_menu">
-                            <li><a href="">Live Chat</a></li>
-                            <li><a href="">Mail Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 col-12 mb-3">
-                        <h2 class="mb-4 primary fw-bold">Subscribe your Email</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, quod dolore deserunt a dignissimos laboriosam aliquam libero, deleniti tenetur placeat</p>
-                        <form action="" class="col-lg-6 mt-3">
-                            <div class="input-group">
-                                <input type="text" class="form-control shadow-none rounded-0 p-3" placeholder="Enter Email">
-                                <button class="btn btn-primary primary-bg rounded-0 p-3" type="submit">Sign up</button>
+        <footer class="main-footer position-relative ">
+            <article>
+                <div class="footer-container container position-relative custom_padding">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="footer-header">TONYIN NEWS</h2>
+                            <form id="newsletter_submit" action="/" target="content" class="newsletter__form">
+                                <div
+                                    class="footer-subscribe d-flex flex-column flex-md-row align-items-md-center justify-content-md-between">
+                                    <input class="footer-input" type="email" id="email" name="subscribe"
+                                        placeholder="Your email here" required="">
+                                    <input type="submit" value="SUBSCRIBE" name="submit"
+                                        class="footer-btn btn btn-light rounded-0">
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input" type="checkbox" id="terms" name="terms" required="">
+                                    <label class="checkbox-label custom-control-label" for="terms">
+                                        <p>I consent and agree to the <a href="">Terms
+                                                &amp; Conditions</a> and <a href="">Privacy
+                                                Policy</a></p>
+                                    </label>
+                                </div>
+                            </form>
+                            <div id="form-message" class="form-message--style" style="display: none;">
+                                <p class="text-2">Thank you for signing up to our newsletter.</p>
+                                <p></p>
                             </div>
-                        </form>
+                        </div>
+                        <div class="col-md-3 footer-menu-col offset-md-1">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a class="footer-link" href="">Privacy Policy</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="footer-link" href="">Terms &amp;
+                                        Conditions</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="footer-link" href="">Sitemap</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a class="footer-link" href="">FAQ</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-menu-col col-md-2 d-flex align-items-center justify-content-center">
+                            <div class="footer-social-box d-flex align-items-center">
+                                <a href="" class="footer-social" target="_blank">
+                                    <span class="sr-only">Facebook</span>
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="" class="footer-social" target="_blank">
+                                    <span class="sr-only">Instagram</span>
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="" class="footer-social"
+                                    target="_blank">
+                                    <span class="sr-only">Youtube</span>
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
-            </div>
+                <div class="flow-image-shape-1 lax" data-speed="1" data-direction="up">
+                </div>
+                <div class="flow-image-shape-2 lax" data-speed="2" data-direction="up">
+                </div>
+                <div class="flow-image-shape-3 lax" data-speed="1" data-direction="down">
+                </div>
+            </article>
         </footer>
-    </div>
-
-    <div class="modal fade" id="country_modal" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalTitleId">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">Add rows here</div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Close
-                    </button>
-                    <button type="button" class="btn btn-primary">Save</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="search_modal" style="display: none;">
-        <div class="container">
-            <div class="search_modal_dismiss position-absolute top-0 end-0 p-2">
-                <button class="btn"><i class="fa fa-times" aria-hidden="true"></i></button>
-            </div>
-            <div class="col-lg-6 col-12 m-auto">
-                <form action="">
-                    <div class="input-group position-relative">
-                        <input type="text" class="form-control p-2 rounded-0 shadow-none" placeholder="Search....">
-                        <button class="btn position-absolute end-0 p-2 rounded-0"><i class="fa fa-search"
-                                aria-hidden="true"></i></button>
-                    </div>
-                </form>
-            </div>
-        </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
