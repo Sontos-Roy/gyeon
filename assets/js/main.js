@@ -65,6 +65,10 @@
     $('.toggle_order_summary').click(function(){
       $('.order_summary_sm_toggle').slideToggle();
     })
+    $('.video-player *').click(function(e){
+      e.preventDefault();
+      $('.video-player').addClass('video-player-playing');
+    })
     $('.image_section .secondary_image').slick({
       infinite: true,
       slidesToShow: 1,
@@ -221,15 +225,15 @@ $(document).ready(function(){
       var _backTrigger = this;
       $(_backTrigger).parent(".subMenu").removeClass("active");
     });
-    
   });
   $(document).ready(function () {
     function applyParallax() {
         let scrollPosition = $(window).scrollTop();
         
         // Loop through each section
-        $('article').each(function () {
+        $('.article').each(function () {
             let sectionOffset = $(this).offset().top;
+            sectionOffset = sectionOffset - 200;
             let sectionHeight = $(this).outerHeight();
             let sectionEnd = sectionOffset + sectionHeight;
 
@@ -261,7 +265,7 @@ $(document).ready(function(){
         window.requestAnimationFrame(applyParallax);
     });
 
-    // Initial positioning
     applyParallax();
 });
 });
+AOS.init();

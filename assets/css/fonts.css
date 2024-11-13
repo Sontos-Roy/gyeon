@@ -46,3 +46,7 @@
     font-family: GT_America_Compressed_Thin;
     src: url(../fonts/gt/GT_America_Compressed_Thin.woff2);
 }
+@font-face {
+    font-family: GT_America_Expanded;
+    src: url(../fonts/gt/GT_America_Expanded_Bold.woff2);
+}

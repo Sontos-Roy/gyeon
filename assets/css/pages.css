@@ -1,0 +1,338 @@
+.about-us-wrap {
+    z-index: 90;
+    position: relative;
+}
+.about-us-wrap .header-wrap {
+    height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    margin-top: 0;
+    position: relative;
+}
+.section-gyeon-way__content {
+    position: relative;
+}
+.text-with-image-background {
+    padding: 20px;
+}
+.section-gyeon-way__content .section-graphic-title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    top: 4.375rem;
+    z-index: 40;
+}
+.section-gyeon-way__content .text-with-image-inner {
+    position: relative;
+    z-index: 30;
+}
+.text-with-image-background .content-wrap {
+    background-color: #fff;
+    position: relative;
+    display: table;
+    height: auto;
+    padding-top: 30px;
+}
+.section-gyeon-way__content .text-with-image-background .content-wrap {
+    background-color: rgba(0, 0, 0, 0);
+}
+.section-gyeon-way__content .section-text {
+    margin: 35px 0;
+    font-weight: 300;
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+.text-with-image-background .content p {
+    font-weight: 300;
+}
+.text-with-image-background .image-wrap {
+    padding: 0;
+}
+.section-gyeon-way__content .image {
+    z-index: 50;
+    position: relative;
+}
+.text-with-image-background .image-wrap>.image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    min-height: 300px;
+    height: auto;
+}
+.section-gyeon-way__content .wave {
+    top: -30%;
+    left: 40%;
+    width: 55rem;
+    height: 55rem;
+    background-image: url(../image/svg/way.svg);
+    z-index: 3;
+}
+.section-gyeon-way__content .blue_crystal {
+    top: 10%;
+    left: 14%;
+    width: 11.875rem;
+    height: 11.875rem;
+    background-image: url(../image/pattern/blue_crystal.png);
+    z-index: 3;
+}
+.section-gyeon-way__content .pink_ball {
+    top: 8%;
+    left: 21%;
+    width: 8.875rem;
+    height: 7.3125rem;
+    background-image: url(../image/pattern/pink_ball.png);
+    z-index: 3;
+}
+.section-gyeon-way__content .small_pink_ball {
+    top: 75%;
+    left: 42%;
+    width: 5.375rem;
+    height: 4.875rem;
+    background-image: url(../image/pattern/pink_ball.png);
+    z-index: 3;
+}
+.brand-manifesto {
+    position: relative;
+    background-color: #f3f3f3;
+    padding: 0 0 5.625rem;
+}
+.brand-manifesto__text {
+    font-size: 2rem;
+    line-height: 1;
+    font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 500;
+    color: #21314d;
+    text-transform: uppercase;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+.brand-manifesto__image {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.brand-manifesto__image--svg {
+    position: relative;
+    z-index: 2;
+}
+.brand-manifesto__image img {
+    width: 85%;
+    max-height: 26.875rem;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    top: -50px;
+}
+.brand-manifesto .non-select .big_crystal {
+    top: -20%;
+    right: 2%;
+    width: 35.625rem;
+    height: 35rem;
+    background-image: url(../image/svg/big_crystal.svg);
+    z-index: 3;
+}
+.brand-manifesto .non-select .crystal {
+    top: 43%;
+    left: 3%;
+    width: 31.6875rem;
+    height: 30rem;
+    background-image: url(../image/svg/crystal2.svg);
+    z-index: 3;
+}
+.brand-manifesto .non-select .pink_ball {
+    top: 65%;
+    left: 22%;
+    width: 11.5625rem;
+    height: 9rem;
+    background-image: url(../image/pattern/pink_ball.png);
+    z-index: 3;
+}
+.brand-manifesto .non-select .blue_ball {
+    top: 25%;
+    left: 6%;
+    width: 5.9375rem;
+    height: 5.75rem;
+    background-image: url(../image/pattern/blue_ball.png);
+    z-index: 3;
+}
+.factory {
+    background-color: #f3f3f3;
+}
+.factory .section-factory {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: relative;
+}
+.factory .section-factory:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 160px solid #f3f3f3;
+    border-left: 100vw solid rgba(0, 0, 0, 0);
+    width: 0;
+}
+.factory .section-factory__title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 0 1.25rem;
+}
+.factory .section-factory__content {
+    color: #fff;
+    margin: 0 0 5.3125rem;
+}
+.factory .section-factory__content__excerpt {
+    font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.factory .section-factory__content__text {
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+.factory .section-factory__content__video {
+    position: relative;
+    top: 5.625rem;
+}
+.video-player {
+    display: block;
+    margin-bottom: -6px;
+    background-color: #fff;
+    height: 56dvw;
+}
+.video-player {
+    width: 100%;
+    height: 56.25vw;
+    position: relative;
+}
+.factory .section-factory__content__video .video-player {
+    width: 100%;
+    height: 56.25vw;
+    position: relative;
+}
+.factory .section-factory__content__video .video-player #video_placeholder {
+    overflow: hidden;
+    cursor: pointer;
+}
+.factory .section-factory__content__video .video-player #video_placeholder, .factory .section-factory__content__video .video-player #video_placeholder .video-placeholder {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.factory .section-factory__content__video .video-player #video_placeholder .video-placeholder {
+    background: no-repeat 50% / cover;
+}
+.factory .section-factory__content__video .video-player #video_placeholder .video-play {
+    margin-bottom: 1.06667rem;
+    width: 5rem;
+    height: 5rem;
+    -webkit-filter: drop-shadow(0 .2rem 3.06667rem rgba(0, 0, 0, .12));
+    filter: drop-shadow(0 .2rem 3.06667rem rgba(0, 0, 0, .12));
+    background-image: url(../image/svg/play.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+.factory .section-factory__content__video .video-player #video_player {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+.factory .section-factory__content__video .video-player.video-player-playing #video_placeholder .video-play{
+    z-index: 0;
+}
+.factory .section-factory__content__video .video-player.video-player-playing #video_player {
+    opacity: 1;
+    z-index: 9;
+}
+.factory .section-factory-description {
+    padding: 5.3125rem 0 8.125rem;
+    position: relative;
+}
+.factory .section-factory-description__text {
+    font-size: .875rem;
+    line-height: 1.5rem;
+    color: #21314d;
+}
+@media only screen and (min-width: 1200px) {
+    .brand-manifesto__text {
+        font-size: 3rem;
+    }
+    .factory .section-factory__content__video .video-player {
+        height: 35.25vw;
+    }
+    .factory .section-factory__content__video .video-player #video_placeholder .video-play {
+        width: 9.375rem;
+        height: 9.375rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .text-with-image-background .content {
+        text-align: left;
+    }
+    .text-with-image-background .image-wrap>.image{
+        height: 628px;
+    }
+    .text-with-image-background {
+        padding: 60px 20px;
+    }
+    .section-factory {
+        background-image: url(https://gyeon.co/wp-content/uploads/2022/06/about-us-factory-bg-840x630.jpg);
+    }
+}
+@media only screen and (min-width: 1681px) {
+    .about-us-wrap .header-wrap {
+        background-image: url(https://gyeon.co/wp-content/uploads/2020/07/foto_top.jpg);
+    }
+    .section-factory {
+        background-image: url(https://gyeon.co/wp-content/uploads/2022/06/about-us-factory-bg.jpg);
+    }
+}
+@media only screen and (max-width: 767px) {
+    .about-us-wrap .header-wrap {
+        background-image: url(https://gyeon.co/wp-content/uploads/2020/07/header_mobile.jpg);
+    }
+    .section-factory {
+        background-image: url(https://gyeon.co/wp-content/uploads/2022/06/about-us-factory-bg-840x630.jpg);
+    }
+}
