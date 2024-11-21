@@ -1,5 +1,28 @@
 
   $(document).ready(function(){
+    $(document).on('click', '#cart_sidebar_toggler', function(e){
+      e.preventDefault();
+      $('.cart_sidebar').toggleClass('active');
+    })
+    $('#shipping_toggler').change(function () {
+        $('.shipping_info').slideToggle(this.checked);
+    });
+    $(document).on('click', '.cart_dismiss', function(e){
+      e.preventDefault();
+      $('.cart_sidebar').removeClass('active');
+    })
+    $(document).on('click', '#menu-toggler', function(e){
+      e.preventDefault();
+      $('#menu').addClass('active');
+    })
+    $(document).on('click', '.coupon_toggler', function(e){
+      e.preventDefault();
+      $('.coupon_form').slideToggle();
+    })
+    $(document).on('click', '#menu .close', function(e){
+      e.preventDefault();
+      $('#menu').removeClass('active');
+    })
     $('html').removeClass('has-scroll-smooth');
     $(window).on('scroll', function() {
       if ($(window).scrollTop() >= 10) {
@@ -14,6 +37,7 @@
     $('#main-menu-close').click(function(e){
       $('#menu').removeClass('is-visible');
     })
+
     $('.sidebar_toggler').click(function(e){
       e.preventDefault();
       $('.sidebar').addClass('active');

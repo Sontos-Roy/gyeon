@@ -1,0 +1,324 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background: #000;
+}
+
+header.theme-dark {
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+header {
+    -webkit-transition: all .7s ease;
+    transition: all .7s ease;
+    -webkit-box-shadow: 0 0 .125rem rgba(0, 0, 0, .1);
+    box-shadow: 0 0 .125rem rgba(0, 0, 0, .1);
+}
+header .menu-container {
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+    height: 6.25rem;
+}
+header .link-logo {
+    position: relative;
+    margin-right: 4rem;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+header .link-logo .logo+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+}
+header.theme-dark .logo:first-child {
+    opacity: 0;
+}
+
+header .link-logo .logo {
+    min-width: 6.25rem;
+    -webkit-transition: all .7s ease;
+    transition: all .7s ease;
+    width: 100px;
+}
+header .btn-main {
+    margin-left: .5rem;
+    align-self: stretch;
+}
+header .btn {
+    padding: .8125rem 1.125rem .75rem;
+    line-height: 1.3125rem;
+    transition: all .4s ease-in-out;
+}
+.box-langauges .nav-item, .box-social .nav-item {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.box-langauges .btn-link, .box-social .btn-link, .box-langauges .nav-link, .box-social .nav-link {
+    margin: 0 .5rem;
+    padding: 0;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.box-langauges .btn-link.nav-icon, .box-social .btn-link.nav-icon, .box-langauges .nav-link.nav-icon, .box-social .nav-link.nav-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: rgba(174, 174, 174, .2);
+}
+.box-langauges .btn-link.nav-icon svg, .box-social .btn-link.nav-icon svg, .box-langauges .nav-link.nav-icon svg, .box-social .nav-link.nav-icon svg {
+    max-width: 1.2rem;
+    max-height: 1.2rem;
+}
+.box-langauges .btn-link.nav-icon[href*=facebook] svg, .box-social .btn-link.nav-icon[href*=facebook] svg, .box-langauges .nav-link.nav-icon[href*=facebook] svg, .box-social .nav-link.nav-icon[href*=facebook] svg {
+    max-height: 1.0625em;
+}
+#menu-toggler {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+header #menu-toggler {
+    margin-left: .875rem;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, 0);
+}
+.navbar-toggler span.line-box {
+    width: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.navbar-toggler span.line {
+    margin: 4px 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.navbar-toggler:hover span.line:nth-child(odd) {
+    -webkit-transform: translate(3px, 0);
+    transform: translate(3px, 0);
+}
+.navbar-toggler:hover span.line:nth-child(even) {
+    -webkit-transform: translate(-3px, 0);
+    transform: translate(-3px, 0);
+}
+.menu {
+    height: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1101;
+    -webkit-transition: all .3s ease-in-out .2s;
+    transition: all .3s ease-in-out .2s;
+}
+.menu.active {
+    height: calc(var(--vh, 1vh)* 100) !important;
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+.menu:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../image/bg-menu.jpg);
+    background-size: cover;
+    display: block;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+}
+.menu.active:before, .menu.active:after {
+    opacity: 1;
+    -webkit-transition: all .3s ease-in-out .2s;
+    transition: all .3s ease-in-out .2s;
+}
+.menu-content {
+    position: relative;
+    z-index: 1;
+    height: 0;
+    overflow: hidden;
+    font-size: 3.75rem;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.3333333333;
+    font-family: "GT America Compressed", "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.menu-content {
+    font-size: 16px;
+}
+@media screen and (min-width: 100px) {
+    .menu-content {
+        font-size: calc(16px + 19*((100vw - 100px) / 1017));
+    }
+}
+@media screen and (min-width: 1000px) {
+    .menu-content {
+        font-size: 35px;
+    }
+}
+.menu.active .menu-content {
+    height: calc(var(--vh, 1vh)* 100) !important;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.menu .close {
+    position: absolute;
+    top: -3.75rem;
+    right: 3.75rem;
+    width: 1.875rem;
+    height: 1.875rem;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    z-index: 2;
+    font-weight: 300;
+    opacity: 0;
+    display: block;
+    outline: 0;
+}
+.menu.active .close {
+    top: 3.75rem;
+    opacity: 1;
+}
+.nano {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.nano>.nano-content {
+    position: absolute;
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.menu .nano-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+}
+.menu .nano-content .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+}
+.menu-nav .nav-item {
+    text-align: center;
+    opacity: 0;
+    margin: .375rem 0;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.menu.active .menu-content .nav-item {
+    opacity: 1;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.menu-nav .nav-link {
+    font-family: "GT America Compressed", "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #fff;
+    padding: 0;
+    display: inline-block;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.menu-nav .nav-link.active {
+    color: #fff;
+}
+
+
+
+/* footer */
+
+
+body>footer, .main-wrapper>footer {
+    padding-bottom: .25rem;
+    font-weight: 300;
+    color: #adb5bd;
+    letter-spacing: .1em;
+    line-height: 2.1875rem;
+}
+body>footer.theme-dark, .main-wrapper>footer.theme-dark {
+    color: #fff;
+    background-color: #000;
+}
+body>footer .footer-content, .main-wrapper>footer .footer-content {
+    padding: 4rem 0 2.8125rem;
+}
+body>footer .footer-content .nav.footer-menu.col-count-2, .main-wrapper>footer .footer-content .nav.footer-menu.col-count-2 {
+    -moz-column-count: 2;
+    -moz-column-gap: 1.25rem;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 1.25rem;
+    column-count: 2;
+    column-gap: 1.25rem;
+}
+
+body>footer .footer-content .nav.footer-menu, .main-wrapper>footer .footer-content .nav.footer-menu {
+    display: block;
+}
+body>footer .footer-content .nav.footer-menu .nav-item, .main-wrapper>footer .footer-content .nav.footer-menu .nav-item {
+    padding: .3125rem;
+}
+
+footer .footer-menu .nav-item {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+body>footer .footer-content .nav.footer-menu .nav-link, .main-wrapper>footer .footer-content .nav.footer-menu .nav-link {
+    padding: 0;
+    font-family: "GT America Compressed", "Oswald", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.3125rem;
+    text-transform: uppercase;
+}
+@media (max-width: 767.98px) {
+    .container, .container-break .container, header .menu-container {
+        max-width: none;
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+    }
+}

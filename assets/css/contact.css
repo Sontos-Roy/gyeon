@@ -1,0 +1,236 @@
+.contact-header {
+    padding: 15% 0 20px;
+    position: relative;
+}
+@media only screen and (min-width: 1200px) {
+    .contact-header {
+        padding: 8% 0 20px;
+    }
+}
+.contact-header .contact-header-content {
+    text-align: center;
+}
+.contact-header .contact-header-content .contact-header-content-title {
+    color: #21314d;
+    font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-bottom: 1.875rem;
+    line-height: 1;
+    letter-spacing: 5px;
+}
+.contact-header .contact-header-content .contact-header-content-subtitle {
+    color: #21314d;
+    font-family: GT America Expanded, GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 4.6875rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 1.875rem;
+    line-height: 4.4375rem;
+    text-align: left;
+    z-index: 10;
+    position: relative;
+}
+.contact-header .contact-header-content .contact-header-content-text {
+    color: #595959;
+    font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 1.5625rem;
+}
+.contact-header .btn-full {
+    border: 1px solid #21314d;
+    padding: 12px 32px;
+}
+.contact-header .btn-full a {
+    color: #21314d;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.contact-header .waves {
+    top: -100%;
+    left: 30%;
+    width: 75rem;
+    height: 75rem;
+    background-image: url(../image/svg/waves.svg);
+    z-index: 3;
+}
+.contact-header .diamond {
+    top: 10%;
+    left: 2%;
+    width: 33.75rem;
+    height: 29.375rem;
+    opacity: 0.5;
+    transform: rotate(180deg);
+    background-image: url(../image/svg/daimond1.svg);
+    z-index: 3;
+}
+.contact-header .lightblue_ball {
+    top: 8%;
+    left: 63.5%;
+    width: 2.25rem;
+    height: 2.25rem;
+    background-image: url(../image/pattern/acc_ball.png);
+    z-index: 3;
+}
+.contact-info {
+    background: #f3f3f3;
+    position: relative;
+    padding-bottom: 20px;
+}
+.contact-info:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 125px solid #fff;
+    border-right: 100vw solid #f3f3f3;
+    width: 0;
+}
+.contact-info .contact-info__header {
+    color: #21314d;
+    margin: 8.125rem 0 3rem;
+    text-align: center;
+}
+.contact-info .contact-info__header__title {
+    font-size: 3rem;
+    line-height: 1;
+    font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: .75rem;
+}
+.contact-info .contact-info__header__subtitle {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 300;
+}
+@media (max-width: 769px) {
+    .contact-header .contact-header-content .contact-header-content-subtitle {
+        color: #21314d;
+        font-family: GT America Expanded, GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 2.6875rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-bottom: 1.875rem;
+        line-height: 4.4375rem;
+        text-align: left;
+        z-index: 10;
+        position: relative;
+    }
+}
+.contact-info .contact-info-form-column {
+    padding: 0 10px;
+}
+.contact-info .contact-info-form .form-group {
+    margin-bottom: 10px;
+}
+.contact-info .contact-info-form .form-control.selectric, .contact-info .contact-info-form label {
+    color: #21314d;
+    text-transform: uppercase;
+    font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.contact-info .contact-info-form label {
+    margin-bottom: 2px;
+}
+.contact-info .contact-info-form .form-control {
+    border: 1px solid #21314d;
+    color: #322c47;
+    font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 300;
+    padding: .375rem;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0;
+}
+.contact-info .contact-info-form .submit-area .btn-link:hover {
+    background-color: #9aafd4;
+}
+.contact-info .contact-info-form input[type=submit] {
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    color: #fff;
+    background-color: #21314d;
+    padding: 1.125rem 1.875rem;
+}
+.contact-info .contact-info-form .submit-area .btn-link {
+    text-decoration: none;
+    -webkit-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+.contact-content-block {
+    padding: 6.25rem 0;
+    background-color: #21314d;
+}
+@media (max-width: 1199px){
+    .contact-content {
+        background-image: none !important;
+        padding: 0 !important;
+    }
+    
+}
+@media only screen and (min-width: 1200px) {
+    .contact-content {
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        background-color: #21314d;
+        padding: 0 !important;
+        background-position: 50%;
+    }
+    .contact-content-block {
+        -webkit-clip-path: polygon(70% 0, 100% 38%, 70% 100%, 0 100%, 0 0);
+        clip-path: polygon(70% 0, 100% 38%, 70% 100%, 0 100%, 0 0);
+        padding: 12.5rem 0;
+    }
+}
+.contact-content .tr {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 125px solid #f3f3f3;
+    border-left: 100vw solid rgba(0, 0, 0, 0);
+    width: 0;
+    z-index: 40;
+}
+.contact-content-block__content {
+    width: 50%;
+    margin: 0 auto;
+}
+.contact-content-block__title {
+    font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 0 .75rem;
+    margin-bottom: 0;
+}
+.contact-content-block__text {
+    font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 300;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+@media only screen and (max-width: 769px) {
+    .contact-content-block__title {
+        font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 1;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 0 0 .75rem;
+        margin-bottom: 0;
+    }
+}

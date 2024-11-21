@@ -1,0 +1,212 @@
+.section-products-1 {
+    position: relative;
+    color: #322c47;
+    min-height: 100vh;
+}
+.section-products-1 .image {
+    position: absolute;
+    top: 0;
+    right: -5%;
+    width: 100vh;
+    height: 100vh;
+}
+.section-products-1 .image-bg {
+    position: absolute;
+    top: -22%;
+    right: -15%;
+    width: 160%;
+    height: 160%;
+    background-image: url(../image/svg/way_2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+.section-products-1 .image-products {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.section-products-1 .image-products img {
+    max-width: 70%;
+    max-height: 65%;
+}
+.section-products-1 .section-header {
+    margin-bottom: .53333rem;
+    font-family: GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.section-products-1 .section-header .product-symbol, .section-products-1 .section-header b {
+    font-family: GT America Expanded, GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.section-header .product-symbol {
+    font-size: 30px;
+}
+.product-symbol {
+    display: inline-block;
+    margin-right: .16em;
+    font-family: GT America Expanded, GT America Compressed, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 100;
+    color: #21314d;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.section-products-1 .section-header .product-symbol {
+    font-size: inherit;
+    font-weight: 300;
+}
+.section-products-1 .section-header .product-symbol-first {
+    letter-spacing: 0;
+}
+.product-symbol .product-symbol-number {
+    letter-spacing: -.01em;
+    font-size: 60%;
+    top: .5em;
+}
+.product-symbol .product-symbol-second {
+    letter-spacing: -.11em;
+}
+.section-products-1 .section-text {
+    color: #322c47;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.section-products-1 .text-2 {
+    margin-bottom: 2.13333rem;
+    font-size: 1.06667rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.section-products-1 dl.properties {
+    margin-bottom: 2.13333rem;
+    font-size: .8rem;
+    line-height: 2;
+    width: 28.66667rem;
+    max-width: 100%;
+    border-left: .07333rem solid #322c47;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.section-products-1 dl.properties>* {
+    padding-left: .86667rem;
+    border-top: .07333rem solid #322c47;
+}
+.section-products-1 dl.properties>:first-child {
+    margin-top: -.33333rem;
+    border-top: none;
+}
+.section-products-1 .btn-list {
+    margin: 0 -1.46667rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.section-products-1 .btn-list .btn {
+    margin: 0 1.46667rem;
+    font-size: 1.06667rem;
+    font-weight: 500;
+}
+.btn-outline-primary {
+    color: #322c47;
+    border-color: #322c47;
+}
+.image_list{
+            columns: 300px;        
+}
+.image_list img{
+    width: 100%;
+    margin-bottom: 10px;        
+}
+@media (max-width: 768px) {
+    .section-products-1 .image-products img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .section-products-1 .image-products {
+        padding: 1.6rem;
+    }
+    .section-products-1 .image-bg {
+        top: -50vw;
+        left: -80vw;
+        width: 220vw;
+        height: 220vw;
+    }
+    .section-products-1 .image {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+        height: 100vw;
+        width: 100%;
+    }
+    .section-products-1 .section-header {
+        font-size: 3rem;
+    }
+    .section-products-1 .image-bg {
+        top: -50vw;
+        left: -80vw;
+        width: 220vw;
+        height: 220vw;
+    }
+    .section-products-1 .btn-list {
+        margin: 0 -.33333rem;
+    }
+    .section-products-1 .btn-list .btn {
+        margin: 0 .33333rem;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 1 50%;
+        -ms-flex: 1 1 50%;
+        flex: 1 1 50%;
+    }
+}
+@media (max-width: 1200px) {
+    .section-products-1 .image {
+        top: 15%;
+        height: 70%;
+        width: 50vw;
+    }
+}

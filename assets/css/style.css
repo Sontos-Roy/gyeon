@@ -690,3 +690,59 @@ input:focus-visible {
     font-size: 20px;
   }
 }
+.cart_sidebar {
+  position: fixed;
+  right: -300px;
+  background: #e7e7e7;
+  box-shadow: 0px 3px 12px 0px rgb(183 183 183);
+  top: 0;
+  height: 100vh;
+  z-index: 9998;
+  width: 300px;
+  transition: 0.3s;
+}
+.cart_sidebar .card-body{
+  background-image: url('../image/svg/waves.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fixed-cart-bottom1 {
+  position: absolute;
+  bottom: 45%;
+  right: 100%;
+  background: #333;
+  border-radius: 0;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px #0f134f;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  z-index: 9999;
+  border: #0f134f;
+}
+.cart_sidebar.active {
+  visibility: visible;
+  opacity: 1;
+  right: 0;
+}
+.cart_sidebar .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+}
+.cart_sidebar .empty_icon {
+  font-size: 80px;
+  opacity: 0.3;
+}
+.cartproduct .image img {
+  width: 50px;
+}
+.subtotal {
+  bottom: 0px;
+}

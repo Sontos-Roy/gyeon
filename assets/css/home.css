@@ -164,6 +164,7 @@
     width: 268.8px;
     height: 341.333px;
     background-image: url(../image/svg/daimond1.svg);
+    transform: rotate(150deg);
 }
 .products-container .section-home-coatings .diamond2 {
     right: -5.5%;
@@ -171,6 +172,7 @@
     width: 330.667px;
     height: 307.2px;
     background-image: url(../image/svg/daimond1.svg);
+    transform: rotate(150deg);
 }
 .products-container .text-box {
     width: 20rem;

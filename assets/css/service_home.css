@@ -1,0 +1,237 @@
+.bg-primary *, .bg-secondary *, .bg-dark *, .bg-info *, .bg-green *, .bg-blue *, .bg-red * {
+    color: #fff;
+}
+article {
+    position: relative;
+    z-index: 1;
+}
+.container {
+    max-width: unset;
+    padding: 0 3.75rem;
+}
+.bg-image {
+    background-position: center center;
+    background-size: cover;
+}
+#nav-multipage {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+#nav-multipage.side-right {
+    right: 0;
+}
+#multipage {
+    position: relative;
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+section>.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 50;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    width: 100vw;
+    left: calc(-1*(100vw - 100%) / 2);
+}
+.bg-dark .loader, .bg-dark .loading {
+    background-color: #000;
+}
+.scroll-margin {
+    height: 0;
+}
+section:first-of-type .scroll-margin {
+    height: 0;
+}
+.container-break {
+    position: relative;
+    width: 100vw;
+    left: calc(-1*(100vw - 100%) / 2);
+}
+.start {
+    position: relative;
+    min-height: 44rem;
+}
+.start .text {
+    position: absolute;
+    top: 30%;
+    bottom: 14%;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    font-size: 1.125rem;
+    line-height: 1.9444444444;
+    color: #fff;
+}
+.start .text .content h1, .start .text .content h2, .start .text .content h3, .start .text .content h4, .start .text .content h5 {
+    color: #fff;
+}
+
+.hide-text-header-short .text-header-short {
+    display: none;
+}
+@media (max-width: 575.98px) {
+    .start.home-section.for-all-section .text .text-header-long {
+        margin-bottom: 6.25rem;
+    }
+    .start.home-section .text-header-long>span {
+        display: inline-block;
+    }
+}
+#page-272 .text-header-long {
+    font-family: Oswald;
+}
+.home-section h1 strong, .home-section h2 strong, .home-section h3 strong, .home-section h4 strong, .home-section h5 strong, .home-section h6 strong, .home-section .h1 strong, .home-section .h2 strong, .home-section .h3 strong, .home-section .h4 strong, .home-section .h5 strong, .home-section .h6 strong, .home-section h1 b, .home-section h2 b, .home-section h3 b, .home-section h4 b, .home-section h5 b, .home-section h6 b, .home-section .h1 b, .home-section .h2 b, .home-section .h3 b, .home-section .h4 b, .home-section .h5 b, .home-section .h6 b {
+    font-family: "GT America Expanded", sans-serif;
+    font-weight: 600;
+}
+.swiper-slide {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+}
+.bg-slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+@media (max-width: 575.98px) {
+    .bg-slide {
+        background-position: center bottom;
+    }
+}
+.bg-slide .bg-shadow {
+    display: none;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #020024 0%, rgba(161, 179, 213, .1) 100%);
+    opacity: .5;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.swiper-slide .video-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.swiper-slide .video-background video {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.home-section .swiper-slide .video-background:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+}
+.home-section h1 strong, .home-section h2 strong, .home-section h3 strong, .home-section h4 strong, .home-section h5 strong, .home-section h6 strong, .home-section .h1 strong, .home-section .h2 strong, .home-section .h3 strong, .home-section .h4 strong, .home-section .h5 strong, .home-section .h6 strong, .home-section h1 b, .home-section h2 b, .home-section h3 b, .home-section h4 b, .home-section h5 b, .home-section h6 b, .home-section .h1 b, .home-section .h2 b, .home-section .h3 b, .home-section .h4 b, .home-section .h5 b, .home-section .h6 b {
+    font-family: "GT America Expanded", sans-serif;
+    font-weight: 600;
+}
+
+.home-section b {
+    -webkit-text-stroke-width: .1875rem;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+}
+.btn-weight, .btn-wide {
+    min-width: 14.375rem;
+}
+.btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .show>.btn-outline-light.dropdown-toggle {
+    color: #212529;
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+}
+.btn-outline-light:hover {
+    color: #212529;
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+}
+.btn:hover {
+    color: #282828;
+    text-decoration: none;
+}
+.custom-points .bg-points {
+    position: absolute;
+    left: 32%;
+    z-index: 1;
+}
+.custom-points .bg-points:after {
+    content: '';
+    display: block;
+    width: 45.625rem;
+    height: 19.6875rem;
+    background: url(../image/pattern/points_balls.png);
+    background-position: top center;
+    background-size: 45.625rem 19.6875rem;
+    background-repeat: no-repeat;
+}
+.custom-points .h1 {
+    display: inline-block;
+    text-align: center;
+}
+.custom-points h2.display-3 {
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+}
+.custom-points h2.display-3.normal-write {
+    transform: unset;
+    writing-mode: unset;
+    position: absolute;
+    text-transform: uppercase;
+}
